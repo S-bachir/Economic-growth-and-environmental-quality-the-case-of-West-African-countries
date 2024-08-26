@@ -1,0 +1,855 @@
+,ï..Country.Name,Country.Code,Indicator.Name,Indicator.Code,GDP (US dollar),Year
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,93.0227002677683,1960
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,68.4247344006247,1960
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,155.899632793964,1960
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1960
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,183.449589798303,1960
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1960
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1960
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1960
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1960
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,132.651770984281,1960
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,92.9604656019465,1960
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,312.99296284623,1960
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,138.938639928686,1960
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,76.6386966178104,1960
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,95.5722322308738,1961
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,71.558180092437,1961
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,170.243050474462,1961
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1961
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,190.218882959143,1961
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1961
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1961
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1961
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1961
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,139.340323395365,1961
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,96.9790299795105,1961
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,321.361239587783,1961
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,139.363569743324,1961
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,79.1202816529452,1961
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,94.4644972423036,1962
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,76.520549314543,1962
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,171.128639637282,1962
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1962
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,195.492397739104,1962
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1962
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1962
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1962
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1962
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,148.189159916588,1962
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,104.38702854306,1962
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,320.501538911354,1962
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,143.4726482737,1962
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,81.9944440812139,1962
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,99.8589175338946,1963
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,78.3721958330329,1963
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,194.212529845992,1963
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1963
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,211.064567779218,1963
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1963
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1963
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1963
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1963
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,158.71606449228,1963
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,107.540572585071,1963
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,322.300733288525,1963
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,143.620306755701,1963
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,87.7922979453762,1963
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,104.339929434072,1964
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,80.4727181207385,1964
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,226.227041791045,1964
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1964
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,230.088779524821,1964
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1964
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1964
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1964
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1964
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,153.259717005291,1964
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,113.168716605965,1964
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,332.081155350613,1964
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,150.748970879357,1964
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,99.9378893887589,1964
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,110.132584644972,1965
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,81.7250523247925,1965
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,217.60244145006,1965
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1965
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,265.323688785998,1965
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1965
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1965
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1965
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1965
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,172.039678987395,1965
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,117.188634827652,1965
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,328.563169210907,1965
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,143.280492367138,1965
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,109.620120649437,1965
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,112.940836383512,1966
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,82.545684006557,1966
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,233.614905479198,1966
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1966
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,267.748224961421,1966
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1966
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1966
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1966
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,,1966
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,174.35491295026,1966
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,124.307792527789,1966
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,329.053313388876,1966
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,147.15582102386,1966
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,121.834175439114,1966
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,111.951560996903,1967
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,84.3630702039477,1967
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,238.310487673876,1967
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1967
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,214.832148179068,1967
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1967
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1967
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1967
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,48.2799247102094,1967
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,160.59183086191,1967
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,99.4060787604039,1967
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,319.639351683498,1967
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,134.317456729551,1967
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,124.878857131216,1967
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,116.895149769939,1968
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,84.7329371553071,1968
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,271.853345495868,1968
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1968
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,200.307093967715,1968
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1968
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1968
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1968
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,59.4675172695034,1968
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,150.381212302976,1968
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,97.2017426929705,1968
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,326.195796522291,1968
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,124.75745824962,1968
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,124.349763954504,1968
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,116.025257145892,1969
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,86.5202091318263,1969
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,277.972127908897,1969
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1969
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,230.287227006016,1969
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1969
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,,1969
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1969
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,57.9917506460035,1969
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,142.699184933056,1969
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,121.245372967553,1969
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,301.26716581992,1969
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,151.740796376573,1969
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,131.570191772583,1969
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,114.556675136837,1970
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,81.5000146010762,1970
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,285.273034325563,1970
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1970
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,253.566621870168,1970
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1970
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,111.688838635488,1970
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1970
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,60.4756804981721,1970
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,144.085093870703,1970
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,224.104484659025,1970
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,304.734090601725,1970
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,158.261487259653,1970
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,120.053880870366,1970
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,112.569975631646,1971
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,84.2878285843207,1971
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,297.280360552613,1971
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1971
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,269.368235183225,1971
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1971
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,109.332599907911,1971
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1971
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,65.3845641448162,1971
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,149.542041395782,1971
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,160.24873613783,1971
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,305.308046452665,1971
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,149.907234638136,1971
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,131.098435850626,1971
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,134.819585121297,1972
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,99.326746973691,1972
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,331.670010106764,1972
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1972
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,228.859732843471,1972
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1972
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,119.728208756074,1972
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1972
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,79.1574106635525,1972
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,155.776990472034,1972
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,209.226044780076,1972
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,358.367926406586,1972
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,163.013286782826,1972
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,149.350828711501,1972
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,161.987061525057,1973
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,113.780341433982,1973
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,429.412933747764,1973
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1973
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,259.701843708917,1973
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1973
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,119.776028358027,1973
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1973
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,90.1001360591356,1973
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,193.055055426061,1973
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,252.23269394853,1973
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,399.808623876607,1973
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,197.446522637728,1973
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,176.473816398963,1973
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,174.014094491397,1974
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,124.358896430637,1974
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,501.552678161048,1974
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1974
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,296.890023865613,1974
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1974
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,130.367560656341,1974
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1974
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,84.5976754927192,1974
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,203.566495855389,1974
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,402.849912320457,1974
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,437.615734435684,1974
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,218.079268532849,1974
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,237.814218072906,1974
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,207.300312768544,1975
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,152.727996774912,1975
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,607.235001739293,1975
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1975
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,281.40612646801,1975
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1975
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,142.281820343001,1975
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1975
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,128.150952886646,1975
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,202.257100990614,1975
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,438.331302220958,1975
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,574.133229492047,1975
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,223.674863513011,1975
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,256.102144117792,1975
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,208.656403182912,1976
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,155.649056863891,1976
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,694.383247143566,1976
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1976
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,271.125578261918,1976
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1976
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,145.877856746918,1976
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1976
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,142.378007750208,1976
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,199.531586399016,1976
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,556.70217044523,1976
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,567.44414096445,1976
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,191.741323741529,1976
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,251.326530735178,1976
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,218.453984016706,1977
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,176.783350963439,1977
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,891.634602258471,1977
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1977
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,306.809965032651,1977
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1977
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,148.978152007931,1977
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1977
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,156.405949369652,1977
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,235.18863837558,1977
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,536.21617892585,1977
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,567.025662858367,1977
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,218.191800605492,1977
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,308.695342649041,1977
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,263.58143153799,1978
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,225.941517814401,1978
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1074.86200816112,1978
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1978
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,345.834422933824,1978
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1978
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,158.866702139161,1978
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1978
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,178.990813487958,1978
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,313.899446398596,1978
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,527.311280606481,1978
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,618.155089174016,1978
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,296.444144879811,1978
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,319.941808458612,1978
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,327.822312162563,1979
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,262.076009642159,1979
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1189.56839662251,1979
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,,1979
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,372.060120787553,1979
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1979
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,153.006192038274,1979
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1979
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,229.345814147298,1979
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,362.495963830921,1979
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,662.263960917793,1979
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,751.025344200663,1979
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,334.803897166003,1979
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,337.449679789145,1979
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,378.044305113183,1980
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,282.685850096209,1980
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1266.62387688845,1980
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,501.13749449253,1980
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,402.060707757631,1980
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1980
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,141.559351449963,1980
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1980
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,248.188533814242,1980
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,418.855265726085,1980
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,874.402070997746,1980
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,807.805929534265,1980
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,324.830395132127,1980
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,417.669139876884,1980
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,337.978371685285,1981
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,254.230468740772,1981
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1004.63437278325,1981
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,483.126925500872,1981
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,372.077443492073,1981
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1981
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,194.924653563058,1981
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1981
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,212.7213755312,1981
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,352.205520164805,1981
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2180.19762082969,1981
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,713.515228584508,1981
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,321.822778852153,1981
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,342.190696121834,1981
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,322.777452914962,1982
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,245.09449089523,1982
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,863.333432585532,1982
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,477.939256518055,1982
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,345.641333225008,1982
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1982
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,204.248798131936,1982
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1982
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,180.511379824461,1982
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,318.058230575674,1982
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1843.90935263196,1982
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,679.210074169068,1982
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,365.904485194525,1982
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,281.810552248143,1982
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,271.129844234977,1983
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,217.994602363453,1983
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,747.756181947221,1983
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,461.239997091499,1983
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,337.163348168986,1983
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1983
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,197.03104547551,1983
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1983
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,171.997851626753,1983
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,276.182799855065,1983
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1222.62930414599,1983
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,586.142900156769,1983
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,274.90177928366,1983
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,252.973785957241,1983
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,252.869785044788,1984
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,193.843273138253,1984
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,717.897667480131,1984
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,431.237554822691,1984
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,355.666703674849,1984
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1984
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,162.672154070606,1984
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1984
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,160.226849805572,1984
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,217.469236041817,1984
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,902.215849912844,1984
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,555.190693083359,1984
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,293.315724581217,1984
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,228.648692582517,1984
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,244.410941733101,1985
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,200.8943517994,1985
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,703.519515159779,1985
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,441.90662888927,1985
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,352.352714371426,1985
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,,1985
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,164.941935311688,1985
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1985
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,177.761126044406,1985
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,208.297105774874,1985
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,882.520000966693,1985
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,590.132970060231,1985
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,225.183191310296,1985
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,234.356109981473,1985
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,303.349035603158,1986
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,256.762480687544,1986
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,888.528580547471,1986
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,602.158496333097,1986
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,435.068187671321,1986
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,354.421365033579,1986
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,145.905480769443,1986
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1986
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,232.889909783584,1986
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,267.471243079967,1986
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,639.013123288422,1986
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,808.329230691129,1986
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,125.152126511172,1986
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,315.462122145632,1986
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,344.503146752797,1987
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,291.131616653547,1987
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,942.931007506008,1987
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,732.5632731235,1987
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,374.470341506465,1987
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,351.909045501736,1987
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,190.45237989458,1987
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1987
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,259.309111961873,1987
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,304.683576436264,1987
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,598.264862130862,1987
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,943.512497796083,1987
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,173.670345976015,1987
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,359.790724421822,1987
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,346.736631300277,1988
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,313.061591382782,1988
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,924.327245161761,1988
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,811.398338220042,1988
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,372.683979564575,1988
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,398.546152799461,1988
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,176.259391620752,1988
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1988
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,265.437312297582,1988
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,302.096812227904,1988
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,549.237432953039,1988
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,905.709093375318,1988
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,253.831209992257,1988
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,385.425418755934,1988
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,311.678045207701,1989
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,304.85352087584,1989
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,848.289544332952,1989
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,807.562392379273,1989
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,365.889682671763,1989
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,394.331142350975,1989
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,223.471418461783,1989
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1989
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,262.966322262511,1989
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,280.141299910927,1989
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,474.232040924323,1989
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,871.640961809009,1989
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,219.294602270747,1989
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,367.792584109987,1989
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,393.68676796568,1990
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,351.979233521781,1990
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,905.322019526304,1990
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,908.08812841442,1990
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,398.637081088931,1990
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,419.809870822721,1990
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,250.149441956581,1990
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1990
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,317.394827422115,1990
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,437.589994991622,1990
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,567.528649015722,1990
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,982.017876322546,1990
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,150.388997452047,1990
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,431.450388393856,1990
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,385.753840745475,1991
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,346.410595888327,1991
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,848.75311593867,1991
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,923.744280787787,1991
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,433.773264764704,1991
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,461.375312462986,1991
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,257.789175646965,1991
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1991
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,315.452814317691,1991
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,396.416991751987,1991
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,502.914138918939,1991
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,935.491959835352,1991
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,179.361210312569,1991
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,414.781437351068,1991
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,317.962736015867,1992
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,361.046875627391,1992
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,870.480701711964,1992
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1003.92954109172,1992
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,409.746389786379,1992
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,489.07160407065,1992
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,221.799165336982,1992
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1992
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,319.840204737845,1992
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,395.275162773467,1992
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,477.177623755735,1992
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,972.4318335977,1992
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,156.403103874074,1992
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,429.042360955801,1992
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,411.926179723246,1993
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,334.943236997182,1993
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,832.28305872577,1993
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1339.72957676692,1993
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,370.419454924392,1993
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,475.426316994835,1993
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,227.023245321292,1993
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1993
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,310.141201645306,1993
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,344.534006349718,1993
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,270.22396671752,1993
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,895.613284760677,1993
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,177.59726281034,1993
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,306.151247376532,1993
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,279.666749038025,1994
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,193.070280195262,1994
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,605.26336693829,1994
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1080.15656461598,1994
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,328.744526865007,1994
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,477.762459236542,1994
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,220.96042416003,1994
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1994
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,223.019600379793,1994
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,211.38649248686,1994
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,321.320674137556,1994
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,595.030006772919,1994
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,211.592232244682,1994
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,238.465453459228,1994
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,367.387714295597,1995
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,235.832150553486,1995
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,774.671375725252,1995
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1261.10309803336,1995
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,379.987984916879,1995
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,508.101516144618,1995
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,233.243258739218,1995
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1995
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,282.340143825172,1995
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,242.620396721353,1995
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,408.181044825253,1995
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,727.989657599257,1995
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,202.316042811522,1995
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,309.818293556622,1995
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,387.432098183474,1996
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,249.360558855403,1996
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1232.25365555692,1996
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1269.12057723296,1996
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,397.135754957028,1996
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,518.365662598199,1996
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,243.438295892826,1996
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1996
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,282.634211882921,1996
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,244.813779041373,1996
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,461.519619593001,1996
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,735.981909160091,1996
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,218.366890204629,1996
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,336.977003891945,1996
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,361.099982369469,1997
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,229.492949313014,1997
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1192.77946057089,1997
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1213.6328637989,1997
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,384.7963283302,1997
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,493.82216135084,1997
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,237.130077323453,1997
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1997
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,267.189016435596,1997
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,225.022076636623,1997
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,479.983764106443,1997
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,661.653759845214,1997
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,196.115381680372,1997
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,334.143842398366,1997
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,379.441767515178,1998
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,255.718236662883,1998
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1258.52471003781,1998
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1265.1978495826,1998
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,407.523237017857,1998
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,456.491484139533,1998
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,178.848364736587,1998
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1998
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,281.873409312082,1998
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,250.657461697887,1998
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,469.43054868657,1998
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,695.952378128979,1998
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,153.458491996581,1998
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,342.657904201102,1998
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,551.821429431177,1999
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,300.421723896109,1999
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1177.04079411995,1999
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1408.98620321479,1999
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,410.334011559612,1999
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,429.719692321206,1999
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,190.672306188466,1999
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,,1999
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,323.288903415366,1999
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,232.187386399953,1999
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,497.841573908863,1999
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,688.998896893659,1999
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,150.006424578628,1999
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,329.816469698975,1999
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,512.673901962619,2000
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,255.718687257319,2000
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1007.4673895039,2000
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1259.35306724402,2000
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,258.471039929679,2000
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,363.482279266615,2000
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,308.910318401872,2000
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,306.833864207408,2000
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,270.542236003215,2000
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,197.832683441643,2000
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,567.930722076473,2000
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,613.732384491775,2000
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,138.698722497148,2000
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,302.958591951416,2000
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,518.067474134696,2001
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,267.097599629023,2001
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,997.478784301277,2001
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1292.22651152195,2001
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,269.014984764581,2001
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,336.154020658897,2001
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,319.957449358104,2001
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,306.710251570113,2001
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,307.704859489839,2001
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,208.37705993638,2001
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,590.381815034907,2001
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,648.441473299398,2001
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,229.37565952613,2001
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,292.823103529291,2001
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,574.929798155789,2002
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,294.665388546593,2002
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1047.75226537338,2002
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1401.89107297649,2002
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,304.564635977066,2002
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,343.602631207699,2002
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,333.058579332506,2002
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,306.473939631577,2002
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,336.418739164893,2002
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,228.235908596278,2002
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,741.747493876339,2002
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,681.311850824678,2002
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,252.396006970341,2002
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,328.398107277437,2002
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,711.284954771847,2003
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,374.627357970473,2003
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1207.51264780798,2003
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,1809.11002984768,2003
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,367.821362113662,2003
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,393.739689850048,2003
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,372.056194872066,2003
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,243.089577534363,2003
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,393.405009104329,2003
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,268.349892996455,2003
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,795.386228652408,2003
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,831.831040294406,2003
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,266.446905426105,2003
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,396.920579751545,2003
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,798.744304503809,2004
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,418.37666028192,2004
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1308.2878198271,2004
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,2024.26638129338,2004
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,417.508066727662,2004
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,407.300975937447,2004
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,405.075118373342,2004
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,286.064725253488,2004
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,440.956777118877,2004
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,286.490065814065,2004
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1007.87434241216,2004
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,932.168095434437,2004
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,266.569371315474,2004
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,413.329866159356,2004
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,822.785143124704,2005
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,457.933430763383,2005
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1309.59165282851,2005
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,2099.14841708582,2005
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,492.54405617264,2005
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,322.415540033465,2005
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,436.475220248958,2005
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,294.893220066163,2005
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,489.021336942005,2005
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,321.723661184348,2005
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1268.38346158479,2005
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,992.688058138543,2005
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,292.349066330563,2005
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,406.562366042383,2005
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,856.054916559873,2006
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,473.449868166334,2006
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1347.98882431013,2006
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,2361.38010115423,2006
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,913.393849309942,2006
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,453.403713310942,2006
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,430.003940275091,2006
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,336.11567425435,2006
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,523.038603102408,2006
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,336.281950277799,2006
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1656.42479354329,2006
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1027.73144085752,2006
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,323.389018440273,2006
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,408.057117336142,2006
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,966.203618310158,2007
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,535.062279451535,2007
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1500.16780515301,2007
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3186.77993467023,2007
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1081.16631826269,2007
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,659.992930975674,2007
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,493.721993219248,2007
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,396.601761281558,2007
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,597.484457562443,2007
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,390.284480245482,2007
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1883.46138847202,2007
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1197.40956116175,2007
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,360.371660481482,2007
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,449.738250451153,2007
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1125.42613398072,2008
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,643.404581023036,2008
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1738.19210063268,2008
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3721.21999284574,2008
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1217.06443549146,2008
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,715.096526700444,2008
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,599.995237190988,2008
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,478.399540115575,2008
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,697.087868500301,2008
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,478.502558952437,2008
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2259.11405888538,2008
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1403.94938456653,2008
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,408.481008463935,2008
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,546.35037020228,2008
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1088.75790573459,2009
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,624.175164544582,2009
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1689.3447616219,2009
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3517.43015558829,2009
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1077.66205832571,2009
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,674.085482596146,2009
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,559.414570857329,2009
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,470.948121388477,2009
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,701.717113381612,2009
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,464.057998970917,2009
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1911.60786588769,2009
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1308.93780804914,2009
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,391.200942951228,2009
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,540.608712584616,2009
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1036.53451502404,2010
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,647.836095537879,2010
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1701.47570153035,2010
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3378.3234334576,2010
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1299.34521164062,2010
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,672.424930359396,2010
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,558.174668134758,2010
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,513.44556667507,2010
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,710.274249372168,2010
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,476.869532167304,2010
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2280.43733738126,2010
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1271.58328084525,2010
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,401.834876099443,2010
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,534.04478262418,2010
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1130.27325128015,2011
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,751.172770411005,2011
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1744.93889692888,2011
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3740.37410269948,2011
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1549.46271883345,2011
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,651.136113367998,2011
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,703.66056725746,2011
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,596.89663532503,2011
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,837.605820999201,2011
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,512.595335012861,2011
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2487.59801680379,2011
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1366.77450070807,2011
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,448.337662148696,2011
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,587.097492827983,2011
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1145.14010479477,2012
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,758.000426972403,2012
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1684.78158627038,2012
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3447.48310007387,2012
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1587.56093185809,2012
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,717.050535937992,2012
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,616.37566403413,2012
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,675.010191838695,2012
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,778.625269510972,2012
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,529.744458141694,2012
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2723.82219093859,2012
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1317.77980180538,2012
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,566.378235059355,2012
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,571.806723944167,2012
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1251.20976745379,2013
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,787.469438309085,2013
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1935.946845307,2013
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3616.03556968932,2013
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2361.09032388366,2013
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,769.003166697833,2013
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,634.662039138969,2013
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,747.868660136896,2013
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,805.03397960822,2013
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,552.569138963417,2013
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2961.54942175947,2013
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1372.66577931902,2013
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,716.835826906915,2013
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,621.398853574683,2013
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1291.41018480579,2014
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,792.84623742527,2014
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2156.64588308951,2014
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3588.62558418407,2014
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2012.26424719728,2014
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,787.238564407157,2014
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,623.313091387687,2014
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,739.91193501652,2014
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,848.279042956769,2014
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,564.596748802018,2014
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,3098.98579063938,2014
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1396.65733855586,2014
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,714.699795733977,2014
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,640.934219628827,2014
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1076.79669785585,2015
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,653.32726813947,2015
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,1972.54568305836,2015
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3043.03138156811,2015
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1774.07477092508,2015
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,769.255475432822,2015
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,603.399381547733,2015
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,721.581050523128,2015
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,751.47288662264,2015
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,484.153137350801,2015
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2687.48005643212,2015
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1219.24941513302,2015
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,588.228862794816,2015
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,570.909967175308,2015
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1087.28733148547,2016
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,688.250696258197,2016
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2013.38144761651,2016
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3130.99875340636,2016
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,1971.95693464599,2016
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,732.291511901662,2016
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,661.457838679603,2016
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,740.914906030102,2016
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,780.723569528087,2016
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,500.214911266535,2016
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2176.00277201515,2016
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1269.90329385985,2016
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,501.415165523953,2016
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,803.1518934041,2016
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1136.59387178448,2017
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,734.996267960528,2017
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2111.02655726645,2017
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3289.90220261281,2017
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2074.29073272269,2017
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,855.575270552124,2017
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,738.549944890782,2017
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,721.085044013216,2017
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,830.021515346886,2017
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,517.771572271371,2017
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,1968.56539847444,2017
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1361.70197218375,2017
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,496.682294873131,2017
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,830.745276651438,2017
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1241.82529800958,2018
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,804.500537821516,2018
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2314.05095836881,2018
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3616.46453749713,2018
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2260.86056729337,2018
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,955.111281136711,2018
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,802.767385116156,2018
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,710.265998419581,2018
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,894.804776510366,2018
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,570.723921953592,2018
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2027.77854863842,2018
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1458.06909258145,2018
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,533.991533265984,2018
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,901.523016898937,2018
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1219.51550596905,2019
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,796.115206827676,2019
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2276.3323939018,2019
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3603.77524058462,2019
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2246.62557816432,2019
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,1058.14336817356,2019
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,749.453747028806,2019
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,672.340499220841,2019
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,879.043187300812,2019
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,554.099389259855,2019
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2229.8586518613,2019
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1430.14825900162,2019
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,521.754836722241,2019
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,893.352454121675,2019
+0,Benin,BEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1291.04097215441,2020
+1,Burkina Faso,BFA,GDP per capita (current US$),NY.GDP.PCAP.CD,857.932729650223,2020
+2,Cote d'Ivoire,CIV,GDP per capita (current US$),NY.GDP.PCAP.CD,2325.72370502247,2020
+3,Cabo Verde,CPV,GDP per capita (current US$),NY.GDP.PCAP.CD,3064.27238842819,2020
+4,Ghana,GHA,GDP per capita (current US$),NY.GDP.PCAP.CD,2205.5290158584,2020
+5,Guinea,GIN,GDP per capita (current US$),NY.GDP.PCAP.CD,1194.03786469445,2020
+6,Guinea-Bissau,GNB,GDP per capita (current US$),NY.GDP.PCAP.CD,727.520171719562,2020
+7,Liberia,LBR,GDP per capita (current US$),NY.GDP.PCAP.CD,632.93638561735,2020
+8,Mali,MLI,GDP per capita (current US$),NY.GDP.PCAP.CD,862.453018770252,2020
+9,Niger,NER,GDP per capita (current US$),NY.GDP.PCAP.CD,567.669892261611,2020
+10,Nigeria,NGA,GDP per capita (current US$),NY.GDP.PCAP.CD,2097.09247289022,2020
+11,Senegal,SEN,GDP per capita (current US$),NY.GDP.PCAP.CD,1471.83096170711,2020
+12,Sierra Leone,SLE,GDP per capita (current US$),NY.GDP.PCAP.CD,509.376593987322,2020
+13,Togo,TGO,GDP per capita (current US$),NY.GDP.PCAP.CD,914.950792453212,2020

@@ -1,0 +1,79 @@
+{
+    "status": 2, 
+    "raster_data": [
+        {
+            "files": [
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2020_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2015_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2010_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2010", 
+                    "display": "2010"
+                }, 
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2005_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2005", 
+                    "display": "2005"
+                }, 
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2000_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2000", 
+                    "display": "2000"
+                }
+            ], 
+            "name": "gpw_v4_rev11_count", 
+            "custom_name": "Population (GPW V4.11, UN Adjusted)", 
+            "title": "Population (GPW V4.11, UN Adjusted)", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/gpw/gpw_v4_rev11/count", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "count", 
+                    "sum"
+                ]
+            }
+        }
+    ], 
+    "custom_name": "Request 04-07-22 01:25", 
+    "release_data": [], 
+    "priority": 0, 
+    "info": [
+        "<b><font size=4>CSV Column Names</font></b><br/>Each CSV will contain a column labeled \"asdf_id\" which has values for each feature that are unique (within that boundary dataset), one or more columns for your extract data, followed by the original source attributes for the boundary file (e.g., from GADM)<br/><br/>The standard format for extract data column names is a three part string delimited by periods (.)<br/>&nbsp;&nbsp;&nbsp;&nbsp;Example:  <b>&#60;dataset&#62;.&#60;filter&#62;.&#60;method&#62;</b>  =  gpw_v4_count<b>.</b>2010<b>.</b>sum<br/><br/>For more details, please read the documentation pdf accompanying your request results.<br/>"
+    ], 
+    "boundary": {
+        "path": "/sciclone/aiddata10/REU/geo/data/boundaries/geoboundaries/v4/NER_ADM1/NER_ADM1.geojson", 
+        "description": "GeoBoundaries boundary file for ADM1 in Niger.", 
+        "group": "ner_gb_v4", 
+        "name": "ner_adm1_gb_v4", 
+        "title": "Niger ADM1 - GeoBoundaries v4"
+    }, 
+    "_id": "624e216077c33211f571ae55", 
+    "email": "bachir.sabo@eleve.ensai.fr", 
+    "stage": [
+        {
+            "name": "submitted", 
+            "time": 1649287520
+        }, 
+        {
+            "name": "prepared", 
+            "time": 1649287576
+        }, 
+        {
+            "name": "processed", 
+            "time": 1649287886
+        }, 
+        {
+            "name": "completed", 
+            "time": 0
+        }
+    ]
+}

@@ -1,0 +1,674 @@
+---
+title: "Spatial Econometric project"
+author: "IBRAHIM KASSOUM Habibou & SABO Bachir & BABA MOUSSA Wissem Abdul-Akhir"
+date: "20/04/2022"
+output: 
+  pdf_document:
+    toc: true
+    toc_depth: 2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r, echo=FALSE}
+# Importation of some library
+library(sp)           ## Data management
+library(maps)         ## Projections
+library(maptools)     ## Data management
+library(spdep)        ## Spatial autocorrelation
+library(gstat)        ## Geostatistics
+library(splancs)      ## Kernel Density
+library(spatstat)     ## Geostatistics
+library(pgirmess)     ## Spatial autocorrelation
+library(RColorBrewer) ## Visualization
+library(classInt)     ## Class intervals
+library(spgwr)        ## GWR
+library(RANN)
+library(foreign)
+library(rgdal)
+```
+
+
+```{r pressure, echo=FALSE}
+## Importation of the file
+s <- readOGR("D:/Cours_ensai/spatial_econometric/shapefiles_total/shapefiles", layer ="CDAO_2012_2013_info")
+
+```
+
+
+```{r}
+## Créer les objets spatiaux nécessaires à une analyse spatiale exploratoire
+### Matrice de contiguité
+LV_nb_queen<-poly2nb(s, queen=T)
+LV_nb_rook<-poly2nb(s, queen=F)
+
+LV_listW_queen <- nb2listw(LV_nb_queen, style="W", zero.policy=TRUE)
+LV_listW_rook <- nb2listw(LV_nb_rook, style="W", zero.policy=TRUE)
+
+#### Créer une distance des K plus proches voisins
+map_crd <- coordinates(s)
+Points_LV<-SpatialPoints(map_crd)
+
+
+LV.knn10 <- knearneigh(Points_LV, k=10)
+LV.knn3 <- knearneigh(Points_LV, k=3)
+LV.knn5 <- knearneigh(Points_LV, k=5)
+LV.knn7 <- knearneigh(Points_LV, k=7)
+LV.knn8 <- knearneigh(Points_LV, k=8)
+
+
+LV_K10_nb<-knn2nb(LV.knn10)
+LV_K3_nb<-knn2nb(LV.knn3)
+LV_K5_nb<-knn2nb(LV.knn5)
+LV_K7_nb<-knn2nb(LV.knn7)
+LV_K8_nb<-knn2nb(LV.knn8)
+
+LV_K10_listW<-nb2listw(LV_K10_nb, style="W", zero.policy=TRUE)
+wknn_10 <- nb2mat(LV_K10_nb, zero.policy=T) #matrice
+
+LV_K3_listW<-nb2listw(LV_K3_nb, style="W", zero.policy=TRUE)
+wknn_3 <- nb2mat(LV_K3_nb, zero.policy=T) #matrice
+
+LV_K5_listW<-nb2listw(LV_K5_nb, style="W", zero.policy=TRUE)
+wknn_5 <- nb2mat(LV_K5_nb, zero.policy=T) #matrice
+
+LV_K7_listW<-nb2listw(LV_K7_nb, style="W", zero.policy=TRUE)
+wknn_7 <- nb2mat(LV_K7_nb, zero.policy=T) #matrice
+
+LV_K8_listW<-nb2listw(LV_K8_nb, style="W", zero.policy=TRUE)
+wknn_8 <- nb2mat(LV_K8_nb, zero.policy=T) #matrice
+
+print(LV_K10_listW)
+```
+
+
+
+
+```{r}
+
+#################################################################
+######## Les statistiques spatiales locales 
+#################################################################
+
+#### Tests globaux de Moran et Geary 
+## Pour la variable PM2.5 Air: pollution de l'air
+
+### 3 plus proches voisins
+moran.test(s@data$PM2.5AirPo, listw=LV_K3_listW, zero.policy=T)
+geary.test(s@data$PM2.5AirPo, listw=LV_K3_listW, zero.policy=T)
+
+### 5 plus proches voisins
+moran.test(s@data$PM2.5AirPo, listw=LV_K5_listW, zero.policy=T)
+geary.test(s@data$PM2.5AirPo, listw=LV_K5_listW, zero.policy=T)
+
+### 7 plus proches voisins
+moran.test(s@data$PM2.5AirPo, listw=LV_K7_listW, zero.policy=T)
+geary.test(s@data$PM2.5AirPo, listw=LV_K7_listW, zero.policy=T)
+
+### 10 plus proches voisins
+moran.test(s@data$PM2.5AirPo, listw=LV_K10_listW, zero.policy=T)
+geary.test(s@data$PM2.5AirPo, listw=LV_K10_listW, zero.policy=T)
+
+
+#### voisins contigues
+# Queen
+moran.test(s@data$PM2.5AirPo, listw=LV_listW_queen, zero.policy=T)
+geary.test(s@data$PM2.5AirPo, listw=LV_listW_queen, zero.policy=T)
+
+# Rook
+moran.test(s@data$PM2.5AirPo, listw=LV_listW_rook, zero.policy=T)
+geary.test(s@data$PM2.5AirPo, listw=LV_listW_rook, zero.policy=T)
+
+```
+
+
+```{r}
+#### Tests globaux de Moran et Geary 
+## Pour la variable PM2.5_pe_2 : pollution per habitat and kilometer
+
+### 3 plus proches voisins
+moran.test(s@data$PM2.5_pe_2, listw=LV_K3_listW, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_K3_listW, zero.policy=T)
+
+### 5 plus proches voisins
+moran.test(s@data$PM2.5_pe_2, listw=LV_K5_listW, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_K5_listW, zero.policy=T)
+
+### 7 plus proches voisins
+moran.test(s@data$PM2.5_pe_2, listw=LV_K7_listW, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_K7_listW, zero.policy=T)
+
+### 10 plus proches voisins
+moran.test(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T)
+
+
+#### voisins contigues
+# Queen
+moran.test(s@data$PM2.5_pe_2, listw=LV_listW_queen, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_listW_queen, zero.policy=T)
+
+# Rook
+moran.test(s@data$PM2.5_pe_2, listw=LV_listW_rook, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_listW_rook, zero.policy=T)
+
+```
+
+
+
+```{r}
+#### Tests globaux de Moran et Geary 
+## Pour la variable Ozone pollution
+
+### 3 plus proches voisins
+moran.test(s@data$OzoneAirPo, listw=LV_K3_listW, zero.policy=T)
+geary.test(s@data$OzoneAirPo, listw=LV_K3_listW, zero.policy=T)
+
+### 5 plus proches voisins
+moran.test(s@data$OzoneAirPo, listw=LV_K5_listW, zero.policy=T)
+geary.test(s@data$OzoneAirPo, listw=LV_K5_listW, zero.policy=T)
+
+### 7 plus proches voisins
+moran.test(s@data$OzoneAirPo, listw=LV_K7_listW, zero.policy=T)
+geary.test(s@data$OzoneAirPo, listw=LV_K7_listW, zero.policy=T)
+
+### 10 plus proches voisins
+moran.test(s@data$OzoneAirPo, listw=LV_K10_listW, zero.policy=T)
+geary.test(s@data$OzoneAirPo, listw=LV_K10_listW, zero.policy=T)
+
+
+#### voisins contigues
+# Queen
+moran.test(s@data$OzoneAirPo, listw=LV_listW_queen, zero.policy=T)
+geary.test(s@data$OzoneAirPo, listw=LV_listW_queen, zero.policy=T)
+
+# Rook
+moran.test(s@data$OzoneAirPo, listw=LV_listW_rook, zero.policy=T)
+geary.test(s@data$OzoneAirPo, listw=LV_listW_rook, zero.policy=T)
+
+```
+
+```{r}
+#################################################################
+######## Les statistiques spatiales locales 
+#################################################################
+
+###### Diagramme de Moran
+
+## Pour la PM2.5
+moran.plot(s@data$PM2.5AirPo, listw=LV_listW_queen, zero.policy=T, labels=s@data$shapeGroup)
+
+moran.plot(s@data$PM2.5AirPo, listw=LV_listW_rook, zero.policy=T, labels=s@data$shapeGroup)
+
+moran.plot(s@data$PM2.5AirPo, listw=LV_K10_listW, zero.policy=T, labels=s@data$shapeGroup)
+
+## Pour la PM2.5 par densité
+moran.plot(s@data$PM2.5_pe_2, listw=LV_listW_queen, zero.policy=T, labels=s@data$shapeGroup)
+
+moran.plot(s@data$PM2.5_pe_2, listw=LV_listW_rook, zero.policy=T, labels=s@data$shapeGroup)
+
+moran.plot(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T, labels=s@data$shapeGroup)
+
+##Pour la pollution de l'Ozone
+moran.plot(s@data$OzoneAirPo, listw=LV_listW_queen, zero.policy=T, labels=s@data$shapeGroup)
+
+moran.plot(s@data$OzoneAirPo, listw=LV_listW_rook, zero.policy=T, labels=s@data$shapeGroup)
+
+moran.plot(s@data$OzoneAirPo, listw=LV_K10_listW, zero.policy=T, labels=s@data$shapeGroup)
+
+```
+
+
+
+
+
+
+
+
+```{r}
+
+# matrice of queen
+localI_queen_1<-localmoran(s@data$PM2.5AirPo, listw=LV_listW_queen, zero.policy=TRUE)
+localI_queen_2<-localmoran(s@data$PM2.5_pe_2, listw=LV_listW_queen, zero.policy=TRUE)
+localI_queen_3<-localmoran(s@data$OzoneAirPo, listw=LV_listW_queen, zero.policy=TRUE)
+
+# matrice of rook
+localI_rook_1<-localmoran(s@data$PM2.5AirPo, listw=LV_listW_rook, zero.policy=TRUE)
+localI_rook_2<-localmoran(s@data$PM2.5_pe_2, listw=LV_listW_rook, zero.policy=TRUE)
+localI_rook_3<-localmoran(s@data$OzoneAirPo, listw=LV_listW_rook, zero.policy=TRUE)
+
+# matrice of 10 nn
+localI_K10_1<-localmoran(s@data$PM2.5AirPo, listw=LV_K10_listW, zero.policy=TRUE)
+localI_K10_2<-localmoran(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=TRUE)
+localI_K10_3<-localmoran(s@data$OzoneAirPo, listw=LV_K10_listW, zero.policy=TRUE)
+
+```
+
+
+```{r}
+
+##########################################
+#8- Réprésentation graphique des I de M. #
+#   et des Hot decks et Cold decks       # 
+##########################################
+
+##ajout des I de Moran locaux dans le shapefile
+# Considerons d'abord les 10 plus proches voisins
+s@data[,"localI10_1"] <- localI_K10_1[,1] 
+s@data[,"PvalI10_1"] <- localI_K10_1[,5] 
+
+s@data[,"localI10_2"] <- localI_K10_2[,1] 
+s@data[,"PvalI10_2"] <- localI_K10_2[,5] 
+
+s@data[,"localI10_3"] <- localI_K10_3[,1] 
+s@data[,"PvalI10_3"] <- localI_K10_3[,5] 
+
+##représentation des I de Moran locaux
+colours <- rev(heat.colors(10))
+distrknn10_1 <- classIntervals(s@data$localI10_1, 10, style="quantile")$brks
+distrknn10_2 <- classIntervals(s@data$localI10_2, 10, style="quantile")$brks
+distrknn10_3 <- classIntervals(s@data$localI10_3, 10, style="quantile")$brks
+
+
+colMapknn_10_1 <- colours[(findInterval(s@data$localI10_1, distrknn10_1, all.inside=TRUE))]
+colMapknn_10_2 <- colours[(findInterval(s@data$localI10_2, distrknn10_2, all.inside=TRUE))]
+colMapknn_10_3 <- colours[(findInterval(s@data$localI10_3, distrknn10_3, all.inside=TRUE))]
+
+
+##Ploting
+plot(s, col=colMapknn_10_1)
+legend("topleft", cex=.6, legend=leglabs(round(distrknn10_1,3)), adj(1), fill=colours, bty="n",title = "For PM 2.5")
+plot(s, col=colMapknn_10_2)
+legend("topleft", cex=.6, legend=leglabs(round(distrknn10_2,3)), adj(1), fill=colours, bty="n", title = "For PM 2.5 per density")
+plot(s, col=colMapknn_10_3)
+legend("topleft", cex=.6, legend=leglabs(round(distrknn10_3,3)), adj(1), fill=colours, bty="n", title = "For Ozone")
+
+
+```
+
+
+
+```{r}
+##Récupération des HH, BB, HB et BH avec I de Moran significatif
+ymean <- mean(s@data$PM2.5AirPo) 
+wy_meanknn <- mean(t(wknn_10%*%s@data$PM2.5AirPo))
+
+indHH <- intersect(which(s@data$PM2.5AirPo>ymean),intersect(which(s@data$localI10_1>0),which(s@data$PvalI10_1<0.05)))
+codeHH <- s@data$shapeName[indHH]
+
+indBB <- intersect(which(s@data$PM2.5AirPo<ymean),intersect(which(s@data$localI10_1>0),which(s@data$PvalI10_1<0.05)))
+codeBB <- s@data$shapeName[indBB]
+
+indHB <- intersect(which(t(wknn_10%*%s@data$PM2.5AirPo)<wy_meanknn),intersect(which(s@data$localI10_1<0),which(s@data$PvalI10_1<0.05)))
+codeHB <- s@data$shapeName[indHB]
+
+indBH <- intersect(which(t(wknn_10%*%s@data$PM2.5AirPo)>wy_meanknn),intersect(which(s@data$localI10_1<0),which(s@data$PvalI10_1<0.05)))
+codeBH <- s@data$shapeName[indBH]
+
+##Réprésentation des hot et cold decks avec I de Moran significatifs
+vec.group <- rep(1, length(s@data$shapeName))
+names(vec.group) <- s@data$shapeName
+
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeHH), 2)
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeBB), 3)
+
+##Ploting
+plot(s, col=c("white","red","blue")[vec.group])
+legend("topleft", legend=c("Hot spot", "Cold spot"), pch=15, col=c("red", "blue"), bty="n", title = "For PM 2.5")
+box()
+```
+
+
+
+```{r}
+##Récupération des HH, BB, HB et BH avec I de Moran significatif
+ymean <- mean(s@data$PM2.5_pe_2) 
+wy_meanknn <- mean(t(wknn_10%*%s@data$PM2.5_pe_2))
+
+indHH <- intersect(which(s@data$PM2.5_pe_2>ymean),intersect(which(s@data$localI10_2>0),which(s@data$PvalI10_2<0.05)))
+codeHH <- s@data$shapeName[indHH]
+
+indBB <- intersect(which(s@data$PM2.5_pe_2<ymean),intersect(which(s@data$localI10_2>0),which(s@data$PvalI10_2<0.05)))
+codeBB <- s@data$shapeName[indBB]
+
+indHB <- intersect(which(t(wknn_10%*%s@data$PM2.5_pe_2)<wy_meanknn),intersect(which(s@data$localI10_2<0),which(s@data$PvalI10_2<0.05)))
+codeHB <- s@data$shapeName[indHB]
+
+indBH <- intersect(which(t(wknn_10%*%s@data$PM2.5_pe_2)>wy_meanknn),intersect(which(s@data$localI10_2<0),which(s@data$PvalI10_2<0.05)))
+codeBH <- s@data$shapeName[indBH]
+
+##Réprésentation des hot et cold decks avec I de Moran significatifs
+vec.group <- rep(1, length(s@data$shapeName))
+names(vec.group) <- s@data$shapeName
+
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeHH), 2)
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeBB), 3)
+
+## Plotting
+plot(s, col=c("white","red","blue")[vec.group])
+legend("topleft", legend=c("Hot spot", "Cold spot"), pch=15, col=c("red", "blue"), bty="n", title = "PM2.5 per density")
+box()
+```
+ 
+
+```{r}
+##Récupération des HH, BB, HB et BH avec I de Moran significatif
+ymean <- mean(s@data$OzoneAirPo) 
+wy_meanknn <- mean(t(wknn_10%*%s@data$OzoneAirPo))
+
+indHH <- intersect(which(s@data$OzoneAirPo>ymean),intersect(which(s@data$localI10_3>0),which(s@data$PvalI10_3<0.05)))
+codeHH <- s@data$shapeName[indHH]
+
+indBB <- intersect(which(s@data$OzoneAirPo<ymean),intersect(which(s@data$localI10_3>0),which(s@data$PvalI10_3<0.05)))
+codeBB <- s@data$shapeName[indBB]
+
+indHB <- intersect(which(t(wknn_10%*%s@data$OzoneAirPo)<wy_meanknn),intersect(which(s@data$localI10_3<0),which(s@data$PvalI10_3<0.05)))
+codeHB <- s@data$shapeName[indHB]
+
+indBH <- intersect(which(t(wknn_10%*%s@data$OzoneAirPo)>wy_meanknn),intersect(which(s@data$localI10_3<0),which(s@data$PvalI10_3<0.05)))
+codeBH <- s@data$shapeName[indBH]
+
+##Réprésentation des hot et cold decks avec I de Moran significatifs
+vec.group <- rep(1, length(s@data$shapeName))
+names(vec.group) <- s@data$shapeName
+
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeHH), 2)
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeBB), 3)
+
+## Plotting
+plot(s, col=c("white","red","blue")[vec.group])
+legend("topleft", legend=c("Hot spot", "Cold spot"), pch=15, col=c("red", "blue"), bty="n", title = "Ozone")
+box()
+```
+
+
+#### Modélisation 
+
+```{r}
+#Create some variables
+## We add 1 for everyone because of the infinie values we get without it
+library(dplyr)
+library(stargazer)
+s@data<-s@data %>%
+  mutate(Viirs_Aver2=Viirs_Aver^2, 
+         LnViirs_Aver=log(1+Viirs_Aver),
+         LnViirs_Aver2 = LnViirs_Aver^2,
+         LnOzoneAirPo=log(1+OzoneAirPo),
+         LnPM2.5AirPo=log(1+PM2.5AirPo),
+         LnPM2.5_pe_2=log(1+PM2.5_pe_2),
+         )
+
+model_4.1 <- lm(LnPM2.5AirPo~Viirs_Aver+LnViirs_Aver2, data=s@data)
+model_4.2 <- lm(LnPM2.5_pe_2~Viirs_Aver+LnViirs_Aver2, data=s@data)
+model_4.3 <- lm(LnOzoneAirPo~Viirs_Aver+LnViirs_Aver2, data=s@data)
+
+# The log model
+model_1 <- lm(LnPM2.5AirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data)
+model_2 <- lm(LnPM2.5_pe_2~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat + PopDensity, data=s@data)
+model_3 <- lm(LnOzoneAirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat + PopDensity, data=s@data)
+
+## The square model
+model_1.1 <- lm(PM2.5AirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data)
+model_2.1<- lm(PM2.5_pe_2~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat + PopDensity, data=s@data)
+model_3.1 <- lm(OzoneAirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat + PopDensity, data=s@data)
+
+## Plot for model 4.1
+ggplot(s@data, aes(x=LnViirs_Aver, y=LnPM2.5AirPo)) + 
+          geom_point() +
+    geom_point(aes(color = shapeGroup)) +
+          stat_smooth(method='lm', formula = y ~ poly(x,2) , size = 1) + 
+          xlab('Average nightlight (radiance)  per million capita') +
+          ylab('PM2.5 concentration (ug/m3)')
+## Plot for model 4.2
+ggplot(s@data, aes(x=LnViirs_Aver, y=LnPM2.5_pe_2)) + 
+          geom_point() +
+    geom_point(aes(color = shapeGroup)) +
+          stat_smooth(method='lm', formula = y ~ poly(x,2), size = 1) + 
+          xlab('Average nightlight (radiance)  per million capita') +
+          ylab('PM2.5 concentration (ug/m3) per capita density')
+## Plot for model 4.1
+ggplot(s@data, aes(x=LnViirs_Aver, y=LnOzoneAirPo)) + 
+          geom_point() +
+    geom_point(aes(color = shapeGroup)) +
+          stat_smooth(method='lm', formula = y ~ poly(x,2), size = 1) + 
+          xlab('Average nightlight (radiance)  per million capita') +
+          ylab('Ozone concentration (ug/m3) per million capita ')
+```
+
+
+```{r}
+# Tableau latex
+stargazer(model_4.1, model_4.2, model_4.3,type = "latex", title = "OLS with the log variable")
+```
+
+
+```{r}
+# Tableau latex
+stargazer(model_1, model_2, model_3,type = "latex", title = "OLS with the type 1 model")
+```
+
+```{r}
+# Tableau latex
+stargazer(model_1.1, model_2.1, model_3.1,type = "latex", title = "OLS with type 2 model")
+```
+
+```{r}
+# For the variable PM2.5
+## With log
+mestest_1 <- lm.LMtests(model_1, listw=LV_listW_queen ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_2 <- lm.LMtests(model_1, listw=LV_listW_rook ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_3 <- lm.LMtests(model_1, listw=LV_K10_listW ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+
+## With square
+mestest_1.1 <- lm.LMtests(model_1.1, listw=LV_listW_queen ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_2.1 <- lm.LMtests(model_1.1, listw=LV_listW_rook ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_3.1 <- lm.LMtests(model_1.1, listw=LV_K10_listW ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+
+# Summary of model
+summary(mestest_1) #SARAR
+summary(mestest_2)#SARAR
+summary(mestest_3)#SARAR
+
+summary(mestest_1.1) #SARAR
+summary(mestest_2.1)#SARAR
+summary(mestest_3.1)#SARAR
+# On doit aller sur du SARAR (diapo 49)
+```
+
+
+```{r}
+# For the variable PM2.5 per density
+## With log
+mestest_1 <- lm.LMtests(model_2, listw=LV_listW_queen ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_2 <- lm.LMtests(model_2, listw=LV_listW_rook ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_3 <- lm.LMtests(model_2, listw=LV_K10_listW ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+
+## With square
+mestest_1.1 <- lm.LMtests(model_2.1, listw=LV_listW_queen ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_2.1 <- lm.LMtests(model_2.1, listw=LV_listW_rook ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_3.1 <- lm.LMtests(model_2.1, listw=LV_K10_listW ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+
+# Summary of the models
+summary(mestest_1) # SAR
+summary(mestest_2) #SAR
+summary(mestest_3) # SARAR
+
+summary(mestest_1.1) #SARAR
+summary(mestest_2.1)#SARAR
+summary(mestest_3.1)#SARAR
+
+```
+
+
+```{r}
+# For the variable Ozone
+## With the log
+mestest_1 <- lm.LMtests(model_3, listw=LV_listW_queen ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_2 <- lm.LMtests(model_3, listw=LV_listW_rook ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_3 <- lm.LMtests(model_3, listw=LV_K10_listW ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+
+## With square
+mestest_1.1 <- lm.LMtests(model_3.1, listw=LV_listW_queen ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_2.1 <- lm.LMtests(model_3.1, listw=LV_listW_rook ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+mestest_3.1 <- lm.LMtests(model_3.1, listw=LV_K10_listW ,zero.policy = TRUE,test=c("LMerr", "LMlag","RLMerr", "RLMlag", "SARMA"))
+
+# Summary of model
+summary(mestest_1)#SARAR
+summary(mestest_2)#SARAR
+summary(mestest_3)# SEM
+
+summary(mestest_1.1) #SARAR
+summary(mestest_2.1)#SARAR
+summary(mestest_3.1)#SARAR
+
+# On doit aller sur du SARAR (diapo 49)
+```
+
+##### Ecriture des modèles
+
+```{r}
+# Importation des packages necessaires
+library(spdep)        ## Spatial autocorrelation
+library(spatialreg)
+library(stargazer)
+library(xtable)
+library(table1)
+library(spatialreg)
+```
+
+```{r}
+
+# Pour la variable PM2.5
+
+semQueen_model_1 <- errorsarlm(LnPM2.5AirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_queen)
+
+semRook_model_1 <- errorsarlm(LnPM2.5AirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_rook)
+
+semK10_model_1 <- errorsarlm(LnPM2.5AirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data,listw=LV_K10_listW)
+
+sarQueen_model_1.1 <-lagsarlm(PM2.5AirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data,listw=LV_listW_queen)
+
+sarRook_model_1.1 <- lagsarlm(PM2.5AirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_rook)
+
+sarK10_model_1.1 <- lagsarlm(PM2.5AirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data,listw=LV_K10_listW)
+
+# On affiche les resumes des models
+summary(semQueen_model_1)
+summary(semRook_model_1)
+summary(semK10_model_1) # Plus faible AIC
+
+summary(sarQueen_model_1.1)
+summary(sarRook_model_1.1)
+summary(sarK10_model_1.1) # Plus faible AIC
+
+# Tableau latex
+stargazer(semQueen_model_1, semRook_model_1, semK10_model_1,sarQueen_model_1.1, sarRook_model_1.1L, sarK10_model_1.1, title = "Spatial error model with PM2.5",column.labels = c("Queen", "Rook", "Knn10"), type = "latex")
+```
+
+```{r}
+# Pour la variable PM2.5 per density
+semQueen_model_2 <- errorsarlm(LnPM2.5_pe_2~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_queen)
+
+semRook_model_2 <- errorsarlm(LnPM2.5_pe_2~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_rook)
+
+semK10_model_2 <- errorsarlm(LnPM2.5_pe_2~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data,listw=LV_K10_listW)
+
+sarQueen_model_2.1 <-lagsarlm(PM2.5_pe_2~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data,listw=LV_listW_queen)
+
+sarRook_model_2.1 <- lagsarlm(PM2.5_pe_2~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_rook)
+
+sarK10_model_2.1 <- lagsarlm(PM2.5_pe_2~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data,listw=LV_K10_listW)
+
+# On affiche les resumes des models
+summary(semQueen_model_2)
+summary(semRook_model_2)
+summary(semK10_model_2) # Plus faible AIC
+
+summary(sarQueen_model_2.1)
+summary(sarRook_model_2.1)
+summary(sarK10_model_2.1) # Plus faible AIC
+
+# Tableau latex
+stargazer(semQueen_model_2, semRook_model_2, semK10_model_2,sarQueen_model_2.1, sarRook_model_2.1, sarK10_model_2.1, title = "Spatial error model with PM2.5",column.labels = c("Queen", "Rook", "Knn10"), type = "latex")
+```
+
+```{r}
+# Pour la variable PM2.5 per density
+semQueen_model_3 <- errorsarlm(LnOzoneAirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_queen)
+
+semRook_model_3 <- errorsarlm(LnOzoneAirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_rook)
+
+semK10_model_3 <- errorsarlm(LnOzoneAirPo~LnViirs_Aver+LnViirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data,listw=LV_K10_listW)
+
+sarQueen_model_3.1 <-lagsarlm(OzoneAirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data,listw=LV_listW_queen)
+
+sarRook_model_3.1 <- lagsarlm(OzoneAirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity,data=s@data, listw=LV_listW_rook)
+
+sarK10_model_3.1 <- lagsarlm(OzoneAirPo~Viirs_Aver+Viirs_Aver2+Temperatur+Precipitat+PopDensity, data=s@data,listw=LV_K10_listW)
+
+# On affiche les resumes des models
+summary(semQueen_model_3)
+summary(semRook_model_3) # Plus faible AIC
+summary(semK10_model_3) 
+
+summary(sarQueen_model_3.1)
+summary(sarRook_model_3.1) # Plus faible AIC
+summary(sarK10_model_3.1) 
+
+# Tableau latex
+stargazer(semQueen_model_3, semRook_model_3, semK10_model_3,sarQueen_model_3.1, sarRook_model_3.1, sarK10_model_3.1, title = "Spatial error model with Ozone",column.labels = c("Queen", "Rook", "Knn10"), type = "text")
+```
+
+#### Impact
+
+```{r}
+## Créer les objets spatiaux nécessaires à une analyse spatiale exploratoire
+### Matrice de contiguité
+LV_nb_queen<-poly2nb(s[!is.na(s@data$"Precipitat"),], queen=T)
+LV_nb_rook<-poly2nb(s[!is.na(s@data$"Precipitat"),], queen=F)
+
+LV_listW_queen <- nb2listw(LV_nb_queen, style="W", zero.policy=TRUE)
+LV_listW_rook <- nb2listw(LV_nb_rook, style="W", zero.policy=TRUE)
+
+#### Créer une distance des K plus proches voisins
+map_crd <- coordinates(s[!is.na(s@data$"Precipitat"),])
+Points_LV<-SpatialPoints(map_crd)
+
+LV.knn10 <- knearneigh(Points_LV, k=10)
+
+LV_K10_nb<-knn2nb(LV.knn10)
+
+
+LV_K10_listW<-nb2listw(LV_K10_nb, style="W", zero.policy=TRUE)
+wknn_10 <- nb2mat(LV_K10_nb, zero.policy=T) #matrice
+
+```
+
+
+
+```{r}
+# Impact for the PM 2.5 
+impact_1 <- impacts(sarK10_model_1.1,  listw=LV_K10_listW)
+impact_1
+```
+
+
+
+```{r}
+# Impact for the PM 2.5 per density
+impact_2 <- impacts(sarQueen_model_2.1,  listw=LV_listW_queen)
+impact_2
+```
+
+
+```{r}
+# Impact for the Ozone pollution
+impact_3 <- impacts(sarK10_model_3.1,  listw=LV_K10_listW)
+impact_3
+```
+
+

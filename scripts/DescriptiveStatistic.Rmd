@@ -1,0 +1,217 @@
+---
+title: "descriptive statistic"
+output: html_document
+---
+```{r}
+library(sp)           ## Data management
+library(maps)         ## Projections
+library(maptools)     ## Data management
+library(spdep)        ## Spatial autocorrelation
+library(gstat)        ## Geostatistics
+library(splancs)      ## Kernel Density
+library(spatstat)     ## Geostatistics
+library(pgirmess)     ## Spatial autocorrelation
+library(RColorBrewer) ## Visualization
+library(classInt)     ## Class intervals
+library(spgwr)        ## GWR
+library(RANN)
+library(foreign)
+library(rgdal)
+library(tidyverse)
+```
+
+```{r setup, include=FALSE}
+s<-readOGR("C:/Users/bachi/OneDrive/cours ensai/3A/projets/Projet stat spatiale/database/VERSION FINALE/CDAO_2012_2013_info", layer ="CDAO_2012_2013_info")
+```
+
+```{r}
+library("ggspatial")
+library(broom)
+library(tidyverse)
+library(tmap)
+```
+
+```{r cars}
+s_tidy <- tidy(s)
+ggplot(s_tidy, aes(x = long, y = lat, group = group)) +
+  geom_polygon(color = "black", size = 0.9, fill = "lightgrey")+
+    annotation_scale(location = "bl", width_hint = 0.5) +
+    annotation_north_arrow(location = "bl", which_north = "true", 
+        pad_x = unit(0.75, "in"), pad_y = unit(0.5, "in"),
+        style = north_arrow_fancy_orienteering)
+
+ggplot(s_tidy, aes(x = long, y = lat, group = group)) +
+  geom_polygon(color = "black", size = 0.1, fill = "lightgrey")+
+    annotation_scale(location = "bl", width_hint = 0.3) +
+    annotation_north_arrow(location = "bl", which_north = "true", 
+        pad_x = unit(0.6, "in"), pad_y = unit(0.4, "in"),
+        style = north_arrow_fancy_orienteering) 
+
+```
+
+
+
+```{r pressure, echo=FALSE}
+s_without_cp = s[s@data$shapeGroup!='CPV',]
+cap_vert =  s[s@data$shapeGroup %in% c('CPV','SNE'),]
+
+
+cap_vert_map =  tm_shape(cap_vert) + tm_polygons() +  tm_layout(title = "Cap Vert", frame = FALSE, bg.color = NA, 
+            title.position = c("RIGHT", "BOTTOM"))
+
+
+
+CDAO_map = tm_shape(s_without_cp) +
+  tm_polygons(col = "Viirs_Aver", style = "quantile",palette = "-RdYlGn", border.alpha = 0.05, title = "e") +
+    tm_compass(type = "8star", position = c("left", "top")) +
+  tm_scale_bar(breaks = c(0,250, 500), text.size = 1, position = c("left", "bottom"))+
+  tm_layout(main.title = "ok",  main.title.size = 0.95, frame = FALSE, legend.outside = TRUE, legend.position = c("left","bottom"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.86, 0.1, width = 0.6, height = 0.5))
+
+
+
+tmap_mode(mode = "plot") # To set the backround
+```
+
+
+```{r pressure, echo=FALSE}
+cap_vert_map =  tm_shape(cap_vert) +
+  tm_polygons(col = "Viirs_Aver", style = "quantile",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "CAP VERT",  main.title.size =0.9, frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+CDAO_map = tm_shape(s_without_cp) +
+  tm_polygons(col = "Viirs_Aver", style = "quantile",palette = "-RdYlGn", border.alpha = 0.1, title = "e") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Night Light in the CDEA zone",  main.title.size = 1, frame = TRUE, legend.outside = TRUE, legend.position = c("left","top"),asp = 1)
+
+
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.86, 0.1, width = 0.6, height = 0.5))
+
+```
+
+
+```{r}
+
+shape <- st_as_sf(s) # Transforme the shapefile in ordre to mutate and create subcounts
+#st_transform(shape, crs = 4326)
+
+tm_shape(s_without_cp) +
+  tm_polygons(col = "PM2.5AirPo", style = "quantile",palette = "-RdYlGn", border.alpha = 0.1, title = "e") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Night Light in the CDEA zone",  main.title.size = 1, frame = TRUE, legend.outside = TRUE, legend.position = c("left","top"),asp = 1)
+
+
+shape <- shape %>% 
+  mutate(BIR74b = cut(Viirs_Aver, 
+                      breaks = c(0, 0.003, 0.010, 0.028, 0.148,  +Inf),
+                      labels = c("Very Low <0.003", "Low [0.003,0.010]", "Fair [0.010,0.028]","High [0.028,0.148] ", "Very High (>0.148)")))
+
+shape_cp <- st_as_sf(cap_vert)
+shape_cp <- shape_cp %>% 
+  mutate(BIR74b = cut(Viirs_Aver, 
+                      breaks = c(0, 0.003, 0.010, 0.028, 0.148, +Inf),
+                      labels = c("Very Low <0.003", "Low [0.003,0.010]", "Fair [0.010,0.028]","High [0.028,0.148] ", "Very High (>0.148)")))
+
+cap_vert_map =  tm_shape(shape_cp) +
+   tm_style("cobalt")+
+  tm_polygons(col = "BIR74b",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "Cape Verde",  main.title.size =0.9, main.title.color = "white",frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+
+CDAO_map= tm_shape(shape) +
+  tm_polygons(col =  "BIR74b",palette = "-RdGy",border.alpha = 0.1, title = "quantiles break") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_style("cobalt")+
+  #tmap_options(bg.color = "white", legend.text.color = "black")+
+  tm_layout(main.title = "Annual VIIRS Nighttime Lights v2 (Radiance) in The \n  Economic Community of West African States (ECOWAS) ",main.title.color = "white",  main.title.size = 1, frame = FALSE,  legend.position = c("left","top"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.1, 0.42, width = 0.65, height = 0.33))
+
+
+```
+
+
+```{r}
+
+
+shape <- shape %>% 
+  mutate(BIR74b = cut(OzoneAirPo, 
+                      breaks = c(42, 50.81, 55.28, 61.82, 72.66, 80 ),
+                      labels = c("Vey Low [42,50.81]", "Low [50.81,55.28]", "Fair [55.28,61.82]","Hight= [61.82,72.66]","Very High [72.66,80]")))
+
+shape_cp <- st_as_sf(cap_vert)
+shape_cp <- shape_cp %>% 
+  mutate(BIR74b = cut(OzoneAirPo, 
+                      breaks =  c(42, 50.81, 55.28, 61.82, 72.66, 80 ),
+                      labels = c("Vey Low [42,50.81]", "Low [50.81,55.28]", "Fair [55.28,61.82]","Hight= [61.82,72.66]","Very High [72.66,80]")))
+
+cap_vert_map =  tm_shape(shape_cp) +
+  tm_polygons(col = "BIR74b",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "Cape Verde",  main.title.size =0.9, frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+
+CDAO_map= tm_shape(shape) +
+  tm_polygons(col =  "BIR74b",palette = "-RdYlGn",border.alpha = 0.1, title = "quantiles break") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Ozone Concentration (ug/m3) in The \n  Economic Community of West African States (ECOWAS) in 2013 ",  main.title.size = 1, frame = FALSE,  legend.position = c("left","top"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.1, 0.45, width = 0.65, height = 0.33))
+
+
+
+```
+
+```{r}
+
+
+
+shape <- shape %>% 
+  mutate(BIR74b = cut(PM2.5AirPo, 
+                      breaks = c(12.2, 21.6, 25.8, 29.3, 34.6, 106.9 ),
+                      labels = c("Vey Low [12.2,21.6]", "Low [21.6,25.8]", "Fair [25.8,29.3]","Hight= [29.3,34.6]","Very High [34.6,106.9]")))
+
+shape_cp <- st_as_sf(cap_vert)
+shape_cp <- shape_cp %>% 
+  mutate(BIR74b = cut(PM2.5AirPo, 
+                       breaks = c(12.2, 21.6, 25.8, 29.3, 34.6, 106.9 ),
+                      labels = c("Vey Low [12.2,21.6]", "Low [21.6,25.8]", "Fair [25.8,29.3]","Hight= [29.3,34.6]","Very High [34.6,106.9]")))
+
+
+cap_vert_map =  tm_shape(shape_cp) +
+  tm_polygons(col = "BIR74b",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "Cape Verde",  main.title.size =0.9, frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+
+CDAO_map= tm_shape(shape) +
+  tm_polygons(col =  "BIR74b",palette = "-RdYlGn",border.alpha = 0.1, title = "quantiles break") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "PM2.5 Concentration (ug/m3) in The \n  Economic Community of West African States (ECOWAS) in 2013",  main.title.size = 1, frame = FALSE,  legend.position = c("left","top"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.1, 0.42, width = 0.65, height = 0.33))
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+

@@ -1,0 +1,204 @@
+{
+    "status": 2, 
+    "raster_data": [
+        {
+            "files": [
+                {
+                    "path": "2019.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "2014.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "2012.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "2016.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "2015.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "2013.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "2017.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "2020.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "2018.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2018", 
+                    "display": "2018"
+                }
+            ], 
+            "name": "viirs_ntl_annual_v20_avg_masked", 
+            "custom_name": "Annual VIIRS Nighttime Lights v2 - Average Value", 
+            "title": "Annual VIIRS Nighttime Lights v2 - Average Value", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/viirs/eogdata/annual/v20/avg_masked", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "max", 
+                    "mean", 
+                    "min", 
+                    "sum", 
+                    "count"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "fus_calibrated_1990.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_1990", 
+                    "display": "1990"
+                }, 
+                {
+                    "path": "fus_calibrated_1995.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_1995", 
+                    "display": "1995"
+                }, 
+                {
+                    "path": "fus_calibrated_2000.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2000", 
+                    "display": "2000"
+                }, 
+                {
+                    "path": "fus_calibrated_2005.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2005", 
+                    "display": "2005"
+                }, 
+                {
+                    "path": "fus_calibrated_2010.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2010", 
+                    "display": "2010"
+                }, 
+                {
+                    "path": "fus_calibrated_2011.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2011", 
+                    "display": "2011"
+                }, 
+                {
+                    "path": "fus_calibrated_2012.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "fus_calibrated_2013.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2013", 
+                    "display": "2013"
+                }
+            ], 
+            "name": "ambient_air_pollution_2013_fus_calibrated", 
+            "custom_name": "Particulate Matter (PM2.5) Concentration", 
+            "title": "Particulate Matter (PM2.5) Concentration", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/ambient_air_pollution_2013/fus_calibrated", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "xco2_2015_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "xco2_2017_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "xco2_2019_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "xco2_2020_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "xco2_2018_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2018", 
+                    "display": "2018"
+                }, 
+                {
+                    "path": "xco2_2016_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2016", 
+                    "display": "2016"
+                }
+            ], 
+            "name": "oco2_v10r_xco2_yearly", 
+            "custom_name": "OCO-2 (v10r) - CO2 Concentration (yearly)", 
+            "title": "OCO-2 (v10r) - CO2 Concentration (yearly)", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/gesdisc/OCO2_L2_Lite_FP_V10r/xco2/year_interp", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean", 
+                    "max", 
+                    "min"
+                ]
+            }
+        }
+    ], 
+    "custom_name": "Request 02-27-22 23:38", 
+    "release_data": [], 
+    "priority": 0, 
+    "info": [
+        "<b><font size=4>CSV Column Names</font></b><br/>Each CSV will contain a column labeled \"asdf_id\" which has values for each feature that are unique (within that boundary dataset), one or more columns for your extract data, followed by the original source attributes for the boundary file (e.g., from GADM)<br/><br/>The standard format for extract data column names is a three part string delimited by periods (.)<br/>&nbsp;&nbsp;&nbsp;&nbsp;Example:  <b>&#60;dataset&#62;.&#60;filter&#62;.&#60;method&#62;</b>  =  gpw_v4_count<b>.</b>2010<b>.</b>sum<br/><br/>For more details, please read the documentation pdf accompanying your request results.<br/>"
+    ], 
+    "boundary": {
+        "path": "/sciclone/aiddata10/REU/geo/data/boundaries/geoboundaries/v4/NGA_ADM1/NGA_ADM1.geojson", 
+        "description": "GeoBoundaries boundary file for ADM1 in Nigeria.", 
+        "group": "nga_gb_v4", 
+        "name": "nga_adm1_gb_v4", 
+        "title": "Nigeria ADM1 - GeoBoundaries v4"
+    }, 
+    "_id": "621bfd5cc53d8f61f94c7d94", 
+    "email": "bachirsabo@ymail.com", 
+    "stage": [
+        {
+            "name": "submitted", 
+            "time": 1646001500
+        }, 
+        {
+            "name": "prepared", 
+            "time": 1646004922
+        }, 
+        {
+            "name": "processed", 
+            "time": 1646004922
+        }, 
+        {
+            "name": "completed", 
+            "time": 0
+        }
+    ]
+}

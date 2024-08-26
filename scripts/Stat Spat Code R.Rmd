@@ -1,0 +1,532 @@
+---
+title: "statsapt"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(sp)           ## Data management
+library(maps)         ## Projections
+library(maptools)     ## Data management
+library(spdep)        ## Spatial autocorrelation
+library(gstat)        ## Geostatistics
+library(splancs)      ## Kernel Density
+library(spatstat)     ## Geostatistics
+library(pgirmess)     ## Spatial autocorrelation
+library(RColorBrewer) ## Visualization
+library(classInt)     ## Class intervals
+library(spgwr)        ## GWR
+library(RANN)
+library(foreign)
+library(rgdal)
+library(tmap)
+```
+
+
+```{r pressure, echo=FALSE}
+#####################################
+
+
+
+#############################
+#2- Importation shapefile   #  (Eurostat)
+#############################
+
+# Shape_CDAO<-readShapeSpatial("C:/Users/bachi/OneDrive/cours ensai/3A/projets/Projet stat spatiale/database/VERSION FINALE/CDAO_2012_2013") #Doesn't work 
+
+s<-readOGR("C:/Users/bachi/OneDrive/cours ensai/3A/projets/Projet stat spatiale/database/VERSION FINALE/CDAO_2012_2013_info", layer ="CDAO_2012_2013_info")
+
+
+spplot(s, "Population", main="Population par region 2012-2013")
+```
+```{r}
+## Créer les objets spatiaux nécessaires à une analyse spatiale exploratoire
+### Matrice de contiguité
+LV_nb<-poly2nb(s, queen=T)
+LV_listW <- nb2listw(LV_nb, style="W", zero.policy=TRUE)
+
+#### Créer une distance des K plus proches voisins
+map_crd <- coordinates(s)
+Points_LV<-SpatialPoints(map_crd)
+plot(Points_LV)
+
+LV.knn <- knearneigh(Points_LV, k=10)
+
+plot(knn2nb(LV.knn), map_crd)
+
+LV_K10_nb<-knn2nb(LV.knn)
+LV_K10_listW<-nb2listw(LV_K10_nb, style="W", zero.policy=TRUE)
+wknn <- nb2mat(LV_K10_nb, zero.policy=T) #matrice
+
+print(LV_K10_listW)
+```
+```{r}
+#### Tests globaux de Moran et Geary 
+### 10 plus proches voisins
+moran.test(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T)
+
+
+### voisins contigues
+moran.test(s@data$PM2.5_pe_2, listw=LV_listW, zero.policy=T)
+geary.test(s@data$PM2.5_pe_2, listw=LV_listW, zero.policy=T)
+
+
+
+## Global Autocorrelation Tests: permutation
+
+moran.mc(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T,  nsim=100)
+geary.mc(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T, nsim=100)
+
+moran.mc(s@data$PM2.5_pe_2, listw=LV_listW, zero.policy=T,  nsim=100)
+geary.mc(s@data$PM2.5_pe_2, listw=LV_listW, zero.policy=T, nsim=100)
+
+#################################################################
+######## Les statistiques spatiales locales 
+#################################################################
+
+###### Diagramme de Moran
+
+moran.plot(s@data$PM2.5_pe_2, listw=LV_listW, zero.policy=T, labels=s@data$shapeGroup)
+moran.plot(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=T, labels=s@data$shapeGroup)
+
+
+##### Moran Local 
+#### Voisins k=10
+```
+
+
+```{r}
+localI<-localmoran(s@data$PM2.5_pe_2, listw=LV_K10_listW, zero.policy=TRUE)
+print(localI)
+```
+
+
+```{r}
+
+##########################################
+#8- Réprésentation graphique des I de M. #
+#   et des Hot decks et Cold decks       # 
+##########################################
+
+##ajout des I de Moran locaux dans le shapefile
+s@data[,"localI"] <- localI[,1] 
+s@data[,"PvalI"] <- localI[,5] 
+#monshapefile10b@data[,"localIknn"] <- localIknn[,1]
+#monshapefile10b@data[,"PvalIknn"] <- localIknn[,5] 
+
+##représentation des I de Moran locaux
+colours <- rev(heat.colors(10))
+distrknn <- classIntervals(s@data$localI, 10, style="quantile")$brks
+colMapknn <- colours[(findInterval(s@data$localI, distrknn, all.inside=TRUE))]
+plot(s, col=colMapknn)
+legend("topleft", cex=.6, legend=leglabs(round(distrknn,3)), adj(1), fill=colours, bty="n")
+
+##Récupération des HH, BB, HB et BH avec I de Moran significatif
+ymean <- mean(s@data$PM2.5_pe_2) 
+wy_meanknn <- mean(t(wknn%*%s@data$PM2.5_pe_2))
+
+indHH <- intersect(which(s@data$PM2.5_pe_2>ymean),intersect(which(s@data$localI>0),which(s@data$PvalI<0.05)))
+codeHH <- s@data$shapeName[indHH]
+
+indBB <- intersect(which(s@data$PM2.5_pe_2<ymean),intersect(which(s@data$localI>0),which(s@data$PvalI<0.05)))
+codeBB <- s@data$shapeName[indBB]
+
+indHB <- intersect(which(t(wknn%*%s@data$PM2.5_pe_2)<wy_meanknn),intersect(which(s@data$localI<0),which(s@data$PvalI<0.05)))
+codeHB <- s@data$shapeName[indHB]
+
+indBH <- intersect(which(t(wknn%*%s@data$PM2.5_pe_2)>wy_meanknn),intersect(which(s@data$localI<0),which(s@data$PvalI<0.05)))
+codeBH <- s@data$shapeName[indBH]
+
+##Réprésentation des hot et cold decks avec I de Moran significatifs
+vec.group <- rep(1, length(s@data$shapeName))
+names(vec.group) <- s@data$shapeName
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeHH), 2)
+vec.group <- replace(vec.group, which(names(vec.group) %in% codeBB), 3)
+#vec.group <- replace(vec.group, which(names(vec.group) %in% codeHB), 3)
+#vec.group <- replace(vec.group, which(names(vec.group) %in% codeBH), 4)
+
+plot(s, col=c("white","red","blue")[vec.group])
+legend("topleft", legend=c("Hot spot", "Cold spot"), pch=15, col=c("red", "blue"), bty="n")
+box()
+
+```
+Test 
+
+```{r}
+#LV_listW  [s@data$PM2.5_pe_2 < 0.05,]
+model_1 <- lm(PM2.5AirPo~Viirs_Aver+Temperatur+Precipitat+PopDensity, data=s@data)
+model_2 <- lm(PM2.5_per_~Viirs_Aver+Temperatur+Precipitat+PopDensity, data=s@data)
+
+#model_3 <- lm(PM2.5_per_2~Viirs_Aver+Temperatur+Precipitat+PopDensity, data=s@data)
+
+#lm.LMtests(model, listw=LV_listW ,zero.policy = TRUE,test="all")
+summary(model_1)
+#summary(model_2)
+test_mode_1 <- lm.LMtests(model_1, listw=LV_listW ,zero.policy = TRUE,test="all")
+test_mode_2 <- lm.LMtests(model_2, listw=LV_listW ,zero.policy = TRUE,test="all")
+#test_mode_3 <- lm.LMtests(model_3, listw=LV_listW ,zero.policy = TRUE,test="all")
+
+summary(test_mode_1)
+summary(test_mode_2)
+#summary(test_mode_3)
+```
+```{r}
+
+library(naniar)
+
+gg_miss_var(s@data,show_pct = TRUE)
+```
+
+
+Base on the the test results we keep the SARAR model (AR for model 3)
+```{r}
+library(spdep)        ## Spatial autocorrelation
+library(spatialreg)
+sar_model_1_nested <- sacsarlm( PM2.5AirPo~Viirs_Aver+Temperatur+Precipitat+PopDensity, Durbin=TRUE,   data=s@data, listw=LV_listW)
+sar_model_1 <- sacsarlm( PM2.5AirPo~Viirs_Aver+Temperatur+Precipitat+PopDensity, Durbin=FALSE,    data=s@data, listw=LV_listW)
+
+summary(sar_model_1)
+summary(sar_model_1_nested)
+
+```
+```{r}
+
+LV_nb_2<-poly2nb(s[!is.na(s$Precipitat),], queen=T)
+LV_listW_2 <- nb2listw(LV_nb_2, style="W", zero.policy=TRUE)
+```
+
+
+```{r}
+
+impact <- impacts(sar_model_1,  listw=LV_listW_2)
+impact
+```
+```{r}
+library("ggspatial")
+library(broom)
+library(tidyverse)
+
+```
+
+
+```{r}
+s_tidy <- tidy(s)
+ggplot(s_tidy, aes(x = long, y = lat, group = group)) +
+  geom_polygon(color = "black", size = 0.9, fill = "lightgrey")+
+    annotation_scale(location = "bl", width_hint = 0.5) +
+    annotation_north_arrow(location = "bl", which_north = "true", 
+        pad_x = unit(0.75, "in"), pad_y = unit(0.5, "in"),
+        style = north_arrow_fancy_orienteering)
+```
+
+
+```{r}
+## Scale on map varies by more than 10%, scale bar may be inaccurate
+```
+
+
+```{r}
+ggplot(s_tidy, aes(x = long, y = lat, group = group)) +
+  geom_polygon(color = "black", size = 0.1, fill = "lightgrey")+
+    annotation_scale(location = "bl", width_hint = 0.3) +
+    annotation_north_arrow(location = "bl", which_north = "true", 
+        pad_x = unit(0.6, "in"), pad_y = unit(0.4, "in"),
+        style = north_arrow_fancy_orienteering) 
+```
+
+```{r}
+s_without_cp = s[s@data$shapeGroup!='CPV',]
+cap_vert =  s[s@data$shapeGroup %in% c('CPV','SNE'),]
+
+
+cap_vert_map =  tm_shape(cap_vert) + tm_polygons() +  tm_layout(title = "Cap Vert", frame = FALSE, bg.color = NA, 
+            title.position = c("RIGHT", "BOTTOM"))
+
+
+
+CDAO_map = tm_shape(s_without_cp) +
+  tm_polygons(col = "Viirs_Aver", style = "quantile",palette = "-RdYlGn", border.alpha = 0.05, title = "e") +
+    tm_compass(type = "8star", position = c("left", "top")) +
+  tm_scale_bar(breaks = c(0,250, 500), text.size = 1, position = c("left", "bottom"))+
+  tm_layout(main.title = "ok",  main.title.size = 0.95, frame = FALSE, legend.outside = TRUE, legend.position = c("left","bottom"))
+
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.86, 0.1, width = 0.6, height = 0.5))
+
+
+
+tmap_mode(mode = "plot") # To set the backround
+
+```
+
+```{r}
+
+cap_vert_map =  tm_shape(cap_vert) +
+  tm_polygons(col = "Viirs_Aver", style = "quantile",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "CAP VERT",  main.title.size =0.9, frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+CDAO_map = tm_shape(s_without_cp) +
+  tm_polygons(col = "Viirs_Aver", style = "quantile",palette = "-RdYlGn", border.alpha = 0.1, title = "e") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Night Light in the CDEA zone",  main.title.size = 1, frame = TRUE, legend.outside = TRUE, legend.position = c("left","top"),asp = 1)
+
+
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.86, 0.1, width = 0.6, height = 0.5))
+
+```
+
+```{r}
+
+shape <- st_as_sf(s) # Transforme the shapefile in ordre to mutate and create subcounts
+#st_transform(shape, crs = 4326)
+
+
+shape <- shape %>% 
+  mutate(BIR74b = cut(Viirs_Aver, 
+                      breaks = c(0, 0.003, 0.010, 0.028, 0.148,  +Inf),
+                      labels = c("Very Low <0.003", "Low [0.003,0.010]", "Fair [0.010,0.028]","High [0.028,0.148] ", "Very High (>0.148)")))
+
+shape_cp <- st_as_sf(cap_vert)
+shape_cp <- shape_cp %>% 
+  mutate(BIR74b = cut(Viirs_Aver, 
+                      breaks = c(0, 0.003, 0.010, 0.028, 0.148, +Inf),
+                      labels = c("Very Low <0.003", "Low [0.003,0.010]", "Fair [0.010,0.028]","High [0.028,0.148] ", "Very High (>0.148)")))
+
+cap_vert_map =  tm_shape(shape_cp) +
+   tm_style("cobalt")+
+  tm_polygons(col = "BIR74b",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "Cape Verde",  main.title.size =0.9, main.title.color = "white",frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+
+CDAO_map= tm_shape(shape) +
+  tm_polygons(col =  "BIR74b",palette = "-RdGy",border.alpha = 0.1, title = "quantiles break") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_style("cobalt")+
+  #tmap_options(bg.color = "white", legend.text.color = "black")+
+  tm_layout(main.title = "Annual VIIRS Nighttime Lights v2 (Radiance) in The \n  Economic Community of West African States (ECOWAS) ",main.title.color = "white",  main.title.size = 1, frame = FALSE,  legend.position = c("left","top"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.1, 0.42, width = 0.65, height = 0.33))
+
+
+
+```
+```{r}
+tm_shape(s_without_cp) +
+  tm_polygons(col = "OzoneAirPo", style = "quantile",palette = "-RdYlGn", border.alpha = 0.1, title = "e") +
+  tm_style("cobalt")+
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Night Light in the CDEA zone",  main.title.size = 1, frame = TRUE, legend.outside = TRUE, legend.position = c("left","top"),asp = 1)
+```
+
+```{r}
+shape <- shape %>% 
+  mutate(BIR74b = cut(OzoneAirPo, 
+                      breaks = c(42, 50.81, 55.28, 61.82, 72.66, 80 ),
+                      labels = c("Vey Low [42,50.81]", "Low [50.81,55.28]", "Fair [55.28,61.82]","Hight= [61.82,72.66]","Very High [72.66,80]")))
+
+shape_cp <- st_as_sf(cap_vert)
+shape_cp <- shape_cp %>% 
+  mutate(BIR74b = cut(OzoneAirPo, 
+                      breaks =  c(42, 50.81, 55.28, 61.82, 72.66, 80 ),
+                      labels = c("Vey Low [42,50.81]", "Low [50.81,55.28]", "Fair [55.28,61.82]","Hight= [61.82,72.66]","Very High [72.66,80]")))
+
+cap_vert_map =  tm_shape(shape_cp) +
+  tm_polygons(col = "BIR74b",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "Cape Verde",  main.title.size =0.9, frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+
+CDAO_map= tm_shape(shape) +
+  tm_polygons(col =  "BIR74b",palette = "-RdYlGn",border.alpha = 0.1, title = "quantiles break") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Ozone Concentration (ug/m3) in The \n  Economic Community of West African States (ECOWAS) in 2013 ",  main.title.size = 1, frame = FALSE,  legend.position = c("left","top"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.1, 0.45, width = 0.65, height = 0.33))
+
+
+
+```
+
+```{r}
+tm_shape(s_without_cp) +
+  tm_polygons(col = "PM2.5AirPo", style = "quantile",palette = "-RdYlGn", border.alpha = 0.1, title = "e") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "Night Light in the CDEA zone",  main.title.size = 1, frame = TRUE, legend.outside = TRUE, legend.position = c("left","top"),asp = 1)
+```
+
+
+
+```{r}
+shape <- shape %>% 
+  mutate(BIR74b = cut(PM2.5AirPo, 
+                      breaks = c(12.2, 21.6, 25.8, 29.3, 34.6, 106.9 ),
+                      labels = c("Vey Low [12.2,21.6]", "Low [21.6,25.8]", "Fair [25.8,29.3]","Hight= [29.3,34.6]","Very High [34.6,106.9]")))
+
+shape_cp <- st_as_sf(cap_vert)
+shape_cp <- shape_cp %>% 
+  mutate(BIR74b = cut(PM2.5AirPo, 
+                       breaks = c(12.2, 21.6, 25.8, 29.3, 34.6, 106.9 ),
+                      labels = c("Vey Low [12.2,21.6]", "Low [21.6,25.8]", "Fair [25.8,29.3]","Hight= [29.3,34.6]","Very High [34.6,106.9]")))
+
+
+cap_vert_map =  tm_shape(shape_cp) +
+  tm_polygons(col = "BIR74b",palette = "-RdYlGn", border.alpha = 0.5, title = "e") +
+  tm_layout(main.title = "Cape Verde",  main.title.size =0.9, frame = TRUE, legend.show = FALSE, frame.lwd = 8)
+
+
+
+CDAO_map= tm_shape(shape) +
+  tm_polygons(col =  "BIR74b",palette = "-RdYlGn",border.alpha = 0.1, title = "quantiles break") +
+    tm_compass(position = c("left", "bottom")) +
+  tm_scale_bar(position = c("left", "bottom"))+
+  tm_layout(main.title = "PM2.5 Concentration (ug/m3) in The \n  Economic Community of West African States (ECOWAS) in 2013",  main.title.size = 1, frame = FALSE,  legend.position = c("left","top"))
+
+CDAO_map
+print(cap_vert_map, vp = grid::viewport(0.1, 0.42, width = 0.65, height = 0.33))
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+library(stargazer)
+library(xtable)
+library(table1)
+```
+```{r}
+donnee = s@data
+qcut = function(x, n) {
+  quantiles = seq(0, 1, length.out = n+1)
+  cutpoints = unname(quantile(x, quantiles, na.rm = TRUE))
+  as.character(cut(x, cutpoints, include.lowest = TRUE))
+}
+
+
+ 
+donnee$PM2_groups <- cut(donnee$PM2.5AirPo, c(12.2, 21.6, 25.8, 29.3, 34.6, 106.9 ), right = FALSE, include.lowest = TRUE) 
+donnee$Ozone_groups <- cut(donnee$OzoneAirPo, c(42, 50.81, 55.28, 61.82, 72.66, 80 ), right = FALSE, include.lowest = TRUE) 
+
+donnee$PM2_groups <- as.factor(donnee$PM2_groups)
+donnee$Ozone_groups <- as.factor(donnee$Ozone_groups)
+
+levels(donnee$PM2_groups )=c("PM2.5 : Vey Low [12.2,21.6]", " PM2.5 : Low [21.6,25.8]", "PM2.5 :Fair [25.8,29.3]","PM2.5 :Hight= [29.3,34.6]","PM2.5 :Very High [34.6,106.9]")
+
+levels(donnee$Ozone_groups )=c("Ozone : Vey Low [42,50.81]", "Ozone :Low [50.81,55.28]", "Ozone : Fair [55.28,61.82]","Ozone :Hight [61.82,72.66]","Ozone :Very High [72.66,80]")
+
+
+donnee$Population_1000 <- donnee$Population/1000
+table1::label(donnee$shapeName) <- "Region"
+table1::label(donnee$Temperatur) <- "Average Temperature"
+table1::label(donnee$Precipitat) <- "Average Precipitation (in mm)"
+table1::label(donnee$shapeGroup) <- "Country code"
+table1::label(donnee$Population_1000) <- "Population (in tausend) "
+table1::label(donnee$PM2_groups) <- "Group of region base of their PM2.5 \n (Very low to very high ) "
+
+#table1::label(base_class$rap_diplome) <- "Highest degree obtained"
+#table1::label(base_class$cmu) <- "complementary universal health coverage"
+#table1::label(base_class$sah1) <- "Self Assessed Health"
+
+
+table1::table1(~ Temperatur + Precipitat + Population_1000 + Viirs_Aver | PM2_groups, data =donnee[donnee$Year=="2013",])
+
+tab_PM2 = table1(~ Temperatur + Precipitat + Population_1000 + Viirs_Aver | PM2_groups, data =donnee[donnee$Year=="2013",])
+tab_Ozone = table1(~ Temperatur + Precipitat + Population_1000 + Viirs_Aver | Ozone_groups, data =donnee[donnee$Year=="2013",])
+
+xtable(as.data.frame(tab_PM2), type = "latex")
+xtable(as.data.frame(tab_Ozone), type = "latex")
+
+```
+
+

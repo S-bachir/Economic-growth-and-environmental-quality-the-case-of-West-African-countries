@@ -1,0 +1,486 @@
+{
+    "status": 2, 
+    "raster_data": [
+        {
+            "files": [
+                {
+                    "path": "ppp_2020_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "ppp_2019_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "ppp_2018_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2018", 
+                    "display": "2018"
+                }, 
+                {
+                    "path": "ppp_2017_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "ppp_2016_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "ppp_2015_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "ppp_2014_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "ppp_2013_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "ppp_2012_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "ppp_2011_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2011", 
+                    "display": "2011"
+                }, 
+                {
+                    "path": "ppp_2010_1km_Aggregated.tif", 
+                    "name": "worldpop_pop_count_1km_mosaic_2010", 
+                    "display": "2010"
+                }
+            ], 
+            "name": "worldpop_pop_count_1km_mosaic", 
+            "custom_name": "WorldPop Population Count", 
+            "title": "WorldPop Population Count", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/worldpop/population_counts/1km_mosaic", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "count", 
+                    "sum"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "2020.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "2019.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "2018.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2018", 
+                    "display": "2018"
+                }, 
+                {
+                    "path": "2017.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "2016.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "2015.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "2013.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "2014.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "2012.tif", 
+                    "name": "viirs_ntl_annual_v20_cf_cvg_2012", 
+                    "display": "2012"
+                }
+            ], 
+            "name": "viirs_ntl_annual_v20_cf_cvg", 
+            "custom_name": "Annual VIIRS Nighttime Lights v2 - Count of Cloud Free Coverage", 
+            "title": "Annual VIIRS Nighttime Lights v2 - Count of Cloud Free Coverage", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/viirs/eogdata/annual/v20/cf_cvg", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "count", 
+                    "sum"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "2020.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "2019.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "2018.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2018", 
+                    "display": "2018"
+                }, 
+                {
+                    "path": "2017.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "2016.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "2013.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "2015.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "2014.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "2012.tif", 
+                    "name": "viirs_ntl_annual_v20_avg_masked_2012", 
+                    "display": "2012"
+                }
+            ], 
+            "name": "viirs_ntl_annual_v20_avg_masked", 
+            "custom_name": "Annual VIIRS Nighttime Lights v2 - Average Value", 
+            "title": "Annual VIIRS Nighttime Lights v2 - Average Value", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/viirs/eogdata/annual/v20/avg_masked", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "precip_2017_mean.tif", 
+                    "name": "udel_precip_v501_mean_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "precip_2016_mean.tif", 
+                    "name": "udel_precip_v501_mean_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "precip_2015_mean.tif", 
+                    "name": "udel_precip_v501_mean_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "precip_2014_mean.tif", 
+                    "name": "udel_precip_v501_mean_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "precip_2013_mean.tif", 
+                    "name": "udel_precip_v501_mean_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "precip_2011_mean.tif", 
+                    "name": "udel_precip_v501_mean_2011", 
+                    "display": "2011"
+                }, 
+                {
+                    "path": "precip_2012_mean.tif", 
+                    "name": "udel_precip_v501_mean_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "precip_2010_mean.tif", 
+                    "name": "udel_precip_v501_mean_2010", 
+                    "display": "2010"
+                }
+            ], 
+            "name": "udel_precip_v501_mean", 
+            "custom_name": "Precipitation (Yearly Average) - UDel", 
+            "title": "Precipitation (Yearly Average) - UDel", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/udel_climate/precip_2017/yearly/mean", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "air_temp_2017_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "air_temp_2016_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "air_temp_2015_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "air_temp_2014_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2014", 
+                    "display": "2014"
+                }, 
+                {
+                    "path": "air_temp_2013_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "air_temp_2012_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "air_temp_2010_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2010", 
+                    "display": "2010"
+                }, 
+                {
+                    "path": "air_temp_2011_mean.tif", 
+                    "name": "udel_air_temp_v501_mean_2011", 
+                    "display": "2011"
+                }
+            ], 
+            "name": "udel_air_temp_v501_mean", 
+            "custom_name": "Air Temperature (Yearly Average) - UDel", 
+            "title": "Air Temperature (Yearly Average) - UDel", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/udel_climate/air_temp_2017/yearly/mean", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "xco2_2020_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "xco2_2019_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2019", 
+                    "display": "2019"
+                }, 
+                {
+                    "path": "xco2_2018_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2018", 
+                    "display": "2018"
+                }, 
+                {
+                    "path": "xco2_2017_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2017", 
+                    "display": "2017"
+                }, 
+                {
+                    "path": "xco2_2016_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2016", 
+                    "display": "2016"
+                }, 
+                {
+                    "path": "xco2_2015_linear.tif", 
+                    "name": "oco2_v10r_xco2_yearly_2015", 
+                    "display": "2015"
+                }
+            ], 
+            "name": "oco2_v10r_xco2_yearly", 
+            "custom_name": "OCO-2 (v10r) - CO2 Concentration (yearly)", 
+            "title": "OCO-2 (v10r) - CO2 Concentration (yearly)", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/gesdisc/OCO2_L2_Lite_FP_V10r/xco2/year_interp", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2020_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2020", 
+                    "display": "2020"
+                }, 
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2015_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2015", 
+                    "display": "2015"
+                }, 
+                {
+                    "path": "gpw_v4_population_count_adjusted_to_2015_unwpp_country_totals_rev11_2010_30_sec.tif", 
+                    "name": "gpw_v4_rev11_count_2010", 
+                    "display": "2010"
+                }
+            ], 
+            "name": "gpw_v4_rev11_count", 
+            "custom_name": "Population (GPW V4.11, UN Adjusted)", 
+            "title": "Population (GPW V4.11, UN Adjusted)", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/gpw/gpw_v4_rev11/count", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "sum", 
+                    "count"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "o3_2013.tif", 
+                    "name": "ambient_air_pollution_2013_o3_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "o3_2012.tif", 
+                    "name": "ambient_air_pollution_2013_o3_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "o3_2011.tif", 
+                    "name": "ambient_air_pollution_2013_o3_2011", 
+                    "display": "2011"
+                }, 
+                {
+                    "path": "o3_2010.tif", 
+                    "name": "ambient_air_pollution_2013_o3_2010", 
+                    "display": "2010"
+                }
+            ], 
+            "name": "ambient_air_pollution_2013_o3", 
+            "custom_name": "Ozone Concentration", 
+            "title": "Ozone Concentration", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/ambient_air_pollution_2013/o3", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }, 
+        {
+            "files": [
+                {
+                    "path": "fus_calibrated_2013.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2013", 
+                    "display": "2013"
+                }, 
+                {
+                    "path": "fus_calibrated_2012.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2012", 
+                    "display": "2012"
+                }, 
+                {
+                    "path": "fus_calibrated_2010.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2010", 
+                    "display": "2010"
+                }, 
+                {
+                    "path": "fus_calibrated_2011.tif", 
+                    "name": "ambient_air_pollution_2013_fus_calibrated_2011", 
+                    "display": "2011"
+                }
+            ], 
+            "name": "ambient_air_pollution_2013_fus_calibrated", 
+            "custom_name": "Particulate Matter (PM2.5) Concentration", 
+            "title": "Particulate Matter (PM2.5) Concentration", 
+            "type": "raster", 
+            "base": "/sciclone/aiddata10/REU/geo/data/rasters/ambient_air_pollution_2013/fus_calibrated", 
+            "temporal_type": "year", 
+            "options": {
+                "extract_types": [
+                    "mean"
+                ]
+            }
+        }
+    ], 
+    "custom_name": "Request 04-07-22 02:00", 
+    "release_data": [], 
+    "priority": 0, 
+    "info": [
+        "<b><font size=4>CSV Column Names</font></b><br/>Each CSV will contain a column labeled \"asdf_id\" which has values for each feature that are unique (within that boundary dataset), one or more columns for your extract data, followed by the original source attributes for the boundary file (e.g., from GADM)<br/><br/>The standard format for extract data column names is a three part string delimited by periods (.)<br/>&nbsp;&nbsp;&nbsp;&nbsp;Example:  <b>&#60;dataset&#62;.&#60;filter&#62;.&#60;method&#62;</b>  =  gpw_v4_count<b>.</b>2010<b>.</b>sum<br/><br/>For more details, please read the documentation pdf accompanying your request results.<br/>"
+    ], 
+    "boundary": {
+        "path": "/sciclone/aiddata10/REU/geo/data/boundaries/geoboundaries/v4/GHA_ADM1/GHA_ADM1.geojson", 
+        "description": "GeoBoundaries boundary file for ADM1 in Ghana.", 
+        "group": "gha_gb_v4", 
+        "name": "gha_adm1_gb_v4", 
+        "title": "Ghana ADM1 - GeoBoundaries v4"
+    }, 
+    "_id": "624e2982261670583621fe45", 
+    "email": "bachir.sabo@eleve.ensai.fr", 
+    "stage": [
+        {
+            "name": "submitted", 
+            "time": 1649289602
+        }, 
+        {
+            "name": "prepared", 
+            "time": 1649289651
+        }, 
+        {
+            "name": "processed", 
+            "time": 1649290588
+        }, 
+        {
+            "name": "completed", 
+            "time": 0
+        }
+    ]
+}

@@ -1,0 +1,855 @@
+,ï..Country.Name,Country.Code,Indicator.Name,IndicatorCode,Emission CO2,Year
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0663541996951,1960
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0091119003232152,1960
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.1318778990164,1960
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.109044952173267,1960
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.220509797024338,1960
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.117539989536839,1960
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0297578472425098,1960
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.147511967496681,1960
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.022989604134105,1960
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.008656818070488,1960
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0754709620133252,1960
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.258436170872941,1960
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.308531789692782,1960
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.041762521923331,1960
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0520486725753437,1961
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0187299012376956,1961
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.152474138431913,1961
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.10715903390301,1961
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.196514575680268,1961
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.173435868907915,1961
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0471068832958118,1961
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.14124786396616,1961
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0220477394133968,1961
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0157773722564927,1961
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0893194774091543,1961
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.247042436454565,1961
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.123149419521589,1961
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0573857152604376,1961
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.054208782862419,1962
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.017003109471793,1962
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.155597445180754,1962
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.087250941034829,1962
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.202743763191169,1962
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.182769807400286,1962
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0641413185726303,1962
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.216879769528334,1962
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0258941640664909,1962
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0183951521475224,1962
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0888878625896447,1962
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.240366504931051,1962
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.136624498327374,1962
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0545697719624917,1962
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0475884671771672,1963
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.017504237927798,1963
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.159083659340127,1963
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0678800668249362,1963
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.236090510243388,1963
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.18971235323589,1963
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0750714951622657,1963
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.298456279430372,1963
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0323462617184815,1963
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0238246771440599,1963
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.111385101371701,1963
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.247510235077926,1963
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.152611353582236,1963
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0651708157704758,1963
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0553036182680249,1964
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0215752798010391,1964
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.187339475184402,1964
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.13158166217386,1964
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.219304482574852,1964
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.1874768463497,1964
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0914148960535726,1964
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.397439865999401,1964
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0319811037928685,1964
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.025071513058003,1964
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.148274059739259,1964
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.258106647010634,1964
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.123389377829471,1964
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0794261142561127,1964
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0571148865980008,1965
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0198412560383113,1965
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.277616178315589,1965
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.111400436592151,1965
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.220319549302064,1965
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.183267481405083,1965
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.101579728991451,1965
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.447660597026433,1965
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0355604162345481,1965
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0234216239776113,1965
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.234674329196185,1965
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.460008053482072,1965
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.112573189178328,1965
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.077261854666104,1965
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0423826477102961,1966
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0195336696877687,1966
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.295285765090541,1966
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.092191657413421,1966
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.181470236171928,1966
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.185709073733581,1966
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.100161153751605,1966
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.480886688057243,1966
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0338340314812423,1966
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0336842215022012,1966
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.252017802580184,1966
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.453853281050388,1966
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.117846197258169,1966
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.101285780318147,1966
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0522840572249999,1967
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0192168294177924,1967
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.327629172160888,1967
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0740742237053676,1967
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.183963142842634,1967
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.184231800390049,1967
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0712312269235539,1967
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.469972341431369,1967
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0392007489407998,1967
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0318516581141479,1967
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.245273591796269,1967
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.179605184878225,1967
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0974365353023223,1967
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.106722358457517,1967
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0551707486921423,1968
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0188949449452581,1968
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.37423654833493,1968
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.114518150127455,1968
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.21195327005435,1968
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.186408841155729,1968
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0916169310334185,1968
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.662488942862712,1968
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0342542151342816,1968
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0378402528187058,1968
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.123978209553693,1968
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,-0.0200976207161394,1968
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.145625339682777,1968
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.099883491273666,1968
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0707503568475618,1969
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0218898760747676,1969
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.426040996677877,1969
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.139185685926949,1969
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.198413547952598,1969
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.183143469827285,1969
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0847362894944736,1969
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.931173801683132,1969
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0275271320910967,1969
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0434763476347635,1969
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.221358869317389,1969
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.11888204263687,1969
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.411174361685696,1969
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.118935457334063,1969
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0969526888705913,1970
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0254263775932548,1970
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.478672773991733,1970
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.136505939329866,1970
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.300563688849616,1970
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.190649125332222,1970
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0988357824883642,1970
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.03669657964062,1970
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0339020971779994,1970
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0479649806180713,1970
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.384764805891136,1970
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.307484800968078,1970
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.317952996294933,1970
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.130003375053533,1970
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0985562265355316,1971
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0262689271964913,1971
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.507858994676973,1971
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.135156552346903,1971
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.255820663356308,1971
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.192768933208558,1971
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.102093799896709,1971
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.06175926054819,1971
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0376132181789666,1971
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.049810650489523,1971
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.563390888889308,1971
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.308401853251441,1971
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.286942241955003,1971
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.14428638946372,1971
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.127712815538893,1972
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0276984000821263,1972
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.540577465026167,1972
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.188853042771326,1972
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.262619885499326,1972
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.194010130183958,1972
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0901086119620595,1972
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.02208784002355,1972
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.03996591114645,1972
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0530644002747354,1972
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.706136962595234,1972
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.321873909711631,1972
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.23762761544675,1972
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.177837209654125,1972
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.122481397419967,1973
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0284431665293256,1973
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.549279784192897,1973
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.229975504301504,1973
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.260726964996874,1973
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.184302778037237,1973
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.147431309955533,1973
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.978277349435143,1973
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0427881757446344,1973
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0673235075786119,1973
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.824721908307988,1973
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.332811025578418,1973
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.185027392892093,1973
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.175123646315965,1973
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.127701367849099,1974
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0339984221971856,1974
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.581683614333242,1974
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.244260402326924,1974
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.301286026666262,1974
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.189814038331566,1974
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.135515819593806,1974
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.10743641279763,1974
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0477927863844081,1974
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0574697046795198,1974
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.00995768823169,1974
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.386025104707174,1974
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.175082587870973,1974
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.160272339197664,1974
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.135891058558414,1975
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0357491379554067,1975
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.622183644243528,1975
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.284957815275311,1975
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.275044848029421,1975
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.187789674495819,1975
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.148406300384472,1975
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.927946070302552,1975
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0526097136779918,1975
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0643588932562383,1975
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.747873873583024,1975
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.52366098251345,1975
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.172655159856682,1975
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.129309826252432,1975
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0777842409510843,1976
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0333149400576854,1976
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.590416608764827,1976
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.270283218780519,1976
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.238734076636085,1976
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.194640816153748,1976
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.123754080592927,1976
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.897904586917385,1976
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0516970476695922,1976
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0625476679556813,1976
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.847069210235497,1976
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.350938579796831,1976
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.145375403492883,1976
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.130941753529425,1976
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0865099047749418,1977
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0389683717582291,1977
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.577201128812835,1977
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.295146980811093,1977
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.288902561533393,1977
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.194881225073619,1977
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.133046187018291,1977
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.871157784009148,1977
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0617333905221589,1977
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0667800853663289,1977
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.75246386574769,1977
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.433118177054736,1977
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.161923833536824,1977
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.183462552820103,1977
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.103019268527523,1978
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0533416936923694,1978
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.655545803833846,1978
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.756816157461384,1978
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.280471735126553,1978
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.191835565505146,1978
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.132976401856147,1978
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.865713453641439,1978
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0579755207441272,1978
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.073954274584244,1978
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.697171285072746,1978
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.495457898857761,1978
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.219510306121158,1978
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.138066205978901,1978
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.101339802278225,1979
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0610098901981757,1979
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.705639410834893,1979
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.891419909984306,1979
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.246043198358438,1979
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.197822850058683,1979
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.141998590469405,1979
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.08523110757636,1979
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0616753557762345,1979
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0825565502495977,1979
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.984976627545796,1979
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.5332892449057,1979
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.204736312534216,1979
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.523125084903922,1979
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.139097284190811,1980
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0634202458596036,1980
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.774604003260286,1980
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.426323243426059,1980
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.231506880538113,1980
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.197974277042176,1980
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.187647599139288,1980
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.10228220212618,1980
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0553402168988864,1980
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0955171147103022,1980
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.928241318879751,1980
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.600312332252165,1980
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.179643818168189,1980
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.264158613072825,1980
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.112310169873978,1981
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0797953835313291,1981
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.532114782904156,1981
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.114324610812047,1981
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.268523081941794,1981
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.199229514678762,1981
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.180161601604426,1981
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.01094989034996,1981
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0547409887728974,1981
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.111252620377562,1981
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.874309218900377,1981
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.574282184940147,1981
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.200069397274281,1981
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.222968504205792,1981
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.125105245617238,1982
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.080427237963868,1982
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.69700265522235,1982
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.124624461331412,1982
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.260653835099738,1982
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.193567435410127,1982
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.176471677019553,1982
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.302284469737524,1982
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0496300416719112,1982
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.117926138916345,1982
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.847277736671961,1982
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.516877917009463,1982
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.156409985526094,1982
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.251541868653575,1982
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.11255315673005,1983
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0809237546843647,1983
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.529302543264363,1983
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.122141320205445,1983
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.303816933959438,1983
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.18351081900042,1983
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.172260820127871,1983
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.345803487404435,1983
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.055404767266128,1983
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.147721441781343,1983
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.754642082580005,1983
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.432363417628872,1983
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.190448565052624,1983
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.180504331049429,1983
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.120856597316361,1984
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0618369699859479,1984
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.567166797672596,1984
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.275498138106749,1984
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.208095998769594,1984
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.183819220936439,1984
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.189536648513526,1984
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.331679663507551,1984
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0567096958397018,1984
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.147895691670722,1984
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.854835992156393,1984
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.526909781407011,1984
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.166164218439693,1984
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.193808662650756,1984
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.1739863625166,1985
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0616868109713521,1985
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.73870894367569,1985
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.270611676527587,1985
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.260174330942487,1985
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.181650262963751,1985
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.197610997026932,1985
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.336664094146772,1985
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.051971759555295,1985
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.144219905338264,1985
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.836413333132925,1985
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.413656916531365,1985
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.17442154424456,1985
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.169090226643308,1985
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.155688131966732,1986
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0605719124782223,1986
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.578835148169234,1986
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.1853114054066,1986
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.231470889997212,1986
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.177180597645939,1986
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.205427268551197,1986
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.33808446308759,1986
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0479535483007817,1986
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.12671675409843,1986
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.857037469546931,1986
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.39909694160927,1986
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.172270172352385,1986
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.210443824634854,1986
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.11885730085715,1987
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0635186632072412,1987
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.718099644537935,1987
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.251213656476831,1987
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.242445905300767,1987
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.171298340051054,1987
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.212927894122738,1987
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.355918232007252,1987
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.04457409724572,1987
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.136594353285212,1987
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.673985115555511,1987
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.356793721001328,1987
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.12349999529488,1987
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.220754849588304,1987
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.118496786967423,1988
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0662633149332726,1988
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.825631425342099,1988
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.225146127019991,1988
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.247410580892142,1988
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.171627705147226,1988
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.231878171065521,1988
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.383177491266831,1988
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0471191117936982,1988
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.131165041096631,1988
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.782645206312657,1988
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.38705538772764,1988
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.110275472762109,1988
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.221405692124795,1988
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.130855058692703,1989
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0957372289249026,1989
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.740894833475955,1989
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.243595627755299,1989
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.232997192513639,1989
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.169452515452016,1989
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.242215726444827,1989
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.316836693759913,1989
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0503847271499216,1989
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.133855476474896,1989
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.457406562929948,1989
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.506103982043705,1989
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0879162774648755,1989
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.227283069738841,1989
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0763283799562478,1990
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0669615015628701,1990
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.227256089016629,1990
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.295899133903235,1990
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.188854549099949,1990
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.157423741578223,1990
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.174311597360717,1990
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.216771672470528,1990
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0497046419993574,1990
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0747515259278159,1990
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.712616859975062,1990
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.309580822251979,1990
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0787080217132283,1990
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.25700061733138,1990
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.064083941418733,1991
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0662977125300246,1991
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.225684260116398,1991
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.288826181515702,1991
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.168339540853902,1991
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.156084160579384,1991
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.170422306475446,1991
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.181360013842181,1991
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0497942916750429,1991
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0687679995714668,1991
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.773746618531716,1991
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.300431835304557,1991
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0827840648953483,1991
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.23815699619829,1991
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0675193485133083,1992
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0656117868886138,1992
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.216196336869171,1992
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.309194604273069,1992
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.196763056075235,1992
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.156342316415407,1992
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.176409536699554,1992
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.199838929822563,1992
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0508455387107424,1992
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0618669363598172,1992
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.862605098547241,1992
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.321648442007537,1992
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.105802411236952,1992
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.190070609964464,1992
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0760626908698149,1993
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0649046587203125,1993
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.223032002530509,1993
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.300499648961774,1993
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.198053537285845,1993
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.156585939365575,1993
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.182093325704581,1993
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.212475230194147,1993
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0506208036316685,1993
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0677178202942858,1993
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.821902461063795,1993
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.303886747972984,1993
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.10626096538087,1993
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.156364636375279,1993
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.07000086626072,1994
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0631584265972766,1994
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.224965523487493,1994
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.292235307869897,1994
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.208916041533717,1994
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.158167091952557,1994
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.168800904022619,1994
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.211428091040936,1994
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0503487292248556,1994
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0632613448314827,1994
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.76481308221847,1994
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.308471769396433,1994
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.111374594526867,1994
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.220840821091026,1994
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.077892803246843,1995
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0634298921295397,1995
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.229581361204792,1995
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.310649049413909,1995
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.218054975479689,1995
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.159567934053324,1995
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.165312026449924,1995
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.205413426310623,1995
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0490315742473653,1995
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0590076866995304,1995
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.755361321492867,1995
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.317600779272637,1995
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0580861361636616,1995
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.231881698689608,1995
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.172292933429949,1996
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0694127507752537,1996
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.264573264803403,1996
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.353952767531407,1996
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.234216123873186,1996
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.164795809952649,1996
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.162040267006351,1996
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.199029845219581,1996
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0498090230570034,1996
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0651293428042253,1996
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.787756012571711,1996
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.328738031916087,1996
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0695626365166742,1996
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.312729373198357,1996
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.197400553103614,1997
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.076883034277082,1997
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.316575454603014,1997
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.371059349706121,1997
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.239544670809505,1997
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.168361791479092,1997
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.176599661811648,1997
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.193447711083694,1997
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0525045513025438,1997
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0638620046224301,1997
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.736309908592246,1997
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.351554440121627,1997
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0530529064342796,1997
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.169418037893911,1997
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.200918817206378,1998
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0802281250267807,1998
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.309825768228387,1998
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.387866564205249,1998
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.332295427631258,1998
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.173010996884275,1998
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.147266219208366,1998
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.194639702050311,1998
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0743202783168947,1998
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0663776394594205,1998
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.658873419472149,1998
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.385118301388662,1998
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0593406252310861,1998
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.259042135577905,1998
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.213081972634873,1999
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0824271078472734,1999
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.417275505310345,1999
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.45189032859562,1999
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.34976987746732,1999
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.177535105084022,1999
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.161409118595775,1999
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.148164171828953,1999
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0751672212285011,1999
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0622145336444304,1999
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.62602687882376,1999
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.413848585970303,1999
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0336143944904663,1999
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.357706536302507,1999
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.22283892124989,2000
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0904552405502056,2000
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.38469345462015,2000
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.513805006329143,2000
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.297735601449257,2000
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.180809114720956,2000
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.124864210171439,2000
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.150959452642089,2000
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.128808906779624,2000
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0591268934615451,2000
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.622077225518892,2000
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.414381656324306,2000
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0872491858560345,2000
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.257899125295518,2000
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.260007167154086,2001
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0853943153674019,2001
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.371446624989089,2001
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.573787987633721,2001
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.314320105113502,2001
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.18652544908081,2001
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.122238928209077,2001
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.152339528925553,2001
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.142836826314766,2001
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.056163692997681,2001
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.679059355019137,2001
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.443399240063523,2001
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0904488344615949,2001
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.233083150833835,2001
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.290594072977493,2002
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0829733955568723,2002
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.370251316495874,2002
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.632118386743574,2002
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.366485340388818,2002
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.189842229460556,2002
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.119573934157809,2002
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.148773757102707,2002
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.120514182367226,2002
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0574241746587445,2002
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.669616061932961,2002
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.445365254936602,2002
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.106730678223115,2002
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.257839077628804,2002
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.31646596342079,2003
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0869247478234043,2003
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.292620070679963,2003
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.689003722842696,2003
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.343609357509296,2003
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.194216972575535,2003
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.155848568180242,2003
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.155993311786757,2003
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.116835181944091,2003
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0600886323139429,2003
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.67232428920698,2003
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.425936800085757,2003
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.111515429313253,2003
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.343299074086754,2003
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.326451486534908,2004
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0867191135679651,2004
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.301605526348109,2004
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.74460326880835,2004
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.31120242222666,2004
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.198303130198105,2004
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.159879161806848,2004
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.17859113282269,2004
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.119653219100082,2004
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0601862849322341,2004
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.654963973656008,2004
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.498608429202136,2004
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.104895201412589,2004
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.325544051779793,2004
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.348273908158166,2005
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0856806414276332,2005
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.316543402704283,2005
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.950254192996627,2005
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.3218021212169,2005
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.201985052008407,2005
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.156141839246772,2005
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.208196477812781,2005
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.12915336680519,2005
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0557819700048604,2005
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.708889857599409,2005
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.511265745204088,2005
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0850215272735775,2005
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.311851627054679,2005
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.46611292127085,2006
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.101235265478276,2006
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.300187993397357,2006
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.06570951742542,2006
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.376691475427226,2006
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.204138181779894,2006
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.159700112225624,2006
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.20725631388338,2006
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.143145186027394,2006
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0530261343191575,2006
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.646843667742506,2006
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.489357485043408,2006
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.108075838359718,2006
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.272433180556739,2006
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.519232293173456,2007
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.117877952676072,2007
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.289495990089326,2007
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.968284473558466,2007
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.3940960321018,2007
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.208023421335996,2007
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.162942024519232,2007
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.184868992877055,2007
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.151632188656813,2007
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0558377556381833,2007
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.615894614329259,2007
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.530500438176249,2007
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0901556537361755,2007
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.253362971170672,2007
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.500177361742641,2008
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.13002285611201,2008
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.324397640507023,2008
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.998240600940842,2008
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.363268588912024,2008
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.206391015891492,2008
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.152045425644258,2008
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.149673089028048,2008
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.148084348277949,2008
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0563900666143725,2008
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.609105145682738,2008
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.533124526227228,2008
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0896700289666801,2008
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.258078642315659,2008
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.525450061952798,2009
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.127467638080145,2009
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.295625731243706,2009
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.04794448770925,2009
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.411651295524548,2009
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.21275592179012,2009
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.154994878430104,2009
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.143841620786073,2009
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.172136787435139,2009
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0681683437446803,2009
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.481062882519591,2009
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.539112314687235,2009
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0876810514074004,2009
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.451139366869093,2009
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.552218690776448,2010
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.133929621329696,2010
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.302927821748309,2010
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.09612620878362,2010
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.449966654040697,2010
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.245286380679753,2010
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.157624804364631,2010
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.187595227063464,2010
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.184725561605576,2010
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0832117298169797,2010
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.57241745455453,2010
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.554497610572779,2010
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0919628233272586,2010
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.409550531528072,2010
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.526380933425601,2011
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.13679962865119,2011
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.284849452071393,2011
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.14260972060185,2011
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.480941312043349,2011
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.251428463947701,2011
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.159949225717788,2011
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.211577206015961,2011
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.201100989242837,2011
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0823849809258319,2011
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.627068885074102,2011
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.580796994647921,2011
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.117320139845607,2011
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.380537175980554,2011
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.487190487574895,2012
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.163536225265297,2012
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.366173070936217,2012
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.04900433654434,2012
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.546997678991142,2012
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.233758216272726,2012
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.155765083823422,2012
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.229709294424931,2012
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.194624459901479,2012
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.10620836203722,2012
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.602049396957054,2012
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.556633753644048,2012
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.132586755685514,2012
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.329209261498003,2012
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.501769487097627,2013
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.173961011998565,2013
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.383021967260586,2013
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.996599835854145,2013
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.56412366658134,2013
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.200131811584896,2013
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.15774219949656,2013
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.214201462831221,2013
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.185411979948272,2013
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0967343405341692,2013
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.644598562418289,2013
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.581174769701335,2013
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.155886348653659,2013
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.251627635386092,2013
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.535635874149484,2014
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.171727227334835,2014
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.395625651943387,2014
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.964736935532419,2014
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.527833773133592,2014
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.200879385380823,2014
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.165442295204596,2014
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.279848092949938,2014
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.184242397329005,2014
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.102909629441135,2014
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.658711745421674,2014
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.604596627521916,2014
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.168159366056291,2014
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.222751564619598,2014
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.566378736988654,2015
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.18773519354615,2015
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.41160505823006,2015
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.952852841407173,2015
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.543283051942276,2015
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.222181479231805,2015
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.161178259125136,2015
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.281738703451903,2015
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.195541291554245,2015
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0984918104059647,2015
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.597060395913481,2015
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.636556012470462,2015
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.13106691677209,2015
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.24852652447126,2015
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.665006633510153,2016
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.187704296015038,2016
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.391223069937504,2016
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.03550852882479,2016
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.495401525745413,2016
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.241088376865262,2016
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.168309177226197,2016
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.307404658772108,2016
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.246027819623535,2016
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0947626145996287,2016
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.583027843306121,2016
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.66161941756949,2016
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.130989244418562,2016
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.306260279692866,2016
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.658601659819357,2017
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.212053871478473,2017
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.424757467782576,2017
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.09767646079342,2017
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.507529429152326,2017
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.24611527343324,2017
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.16410067904861,2017
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.267958310790809,2017
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.272789702529041,2017
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.0958227395971223,2017
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.59159678883652,2017
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.620648569323981,2017
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.129533211714556,2017
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.268884386987762,2017
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.688722324311593,2018
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.21618648458803,2018
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.39530538358065,2018
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,1.14020052817031,2018
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.541201382411755,2018
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.25132323293185,2018
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.165394727856314,2018
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.273917114341304,2018
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.294583927721055,2018
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.102037038018956,2018
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.667110198543523,2018
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.621912356528099,2018
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.133330736434022,2018
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,0.286471388670057,2018
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2019
+0,Benin,BEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+1,Burkina Faso,BFA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+2,Cote d'Ivoire,CIV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+3,Cabo Verde,CPV,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+4,Ghana,GHA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+5,Guinea,GIN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+6,Guinea-Bissau,GNB,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+7,Liberia,LBR,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+8,Mali,MLI,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+9,Niger,NER,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+10,Nigeria,NGA,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+11,Senegal,SEN,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+12,Sierra Leone,SLE,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
+13,Togo,TGO,CO2 emissions (metric tons per capita),EN.ATM.CO2E.PC,,2020
