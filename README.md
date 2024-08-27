@@ -31,7 +31,7 @@ The project is organized into the following directories:
   - `PM2.5.png`: A plot of PM2.5 levels across different regions.
   - And more related visualizations depicting various environmental and economic indicators.
 
-- **scripts/**: (If present) Python and R scripts used for data processing, analysis, and visualization.
+- **scripts/**: Python and R scripts used for data processing, analysis, and visualization.
 
 ## Data Sources
 
